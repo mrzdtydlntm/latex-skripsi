@@ -1,0 +1,1275 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{Slater1939}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SJC}{%
+         family={Slater},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJC1}
+    \strng{fullhash}{SJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{McGraw Hill Book Company, Inc}
+    \field{title}{{Introduction to Chemical Physics}}
+    \field{year}{1939}
+  \endentry
+
+  \entry{ACS2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={ACS},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Organic Chemistry}}
+    \verb{url}
+    \verb https://www.acs.org/content/acs/en/careers/college
+    \endverb
+    \field{year}{2020}
+    \field{urlday}{27}
+    \field{urlmonth}{07}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{Zhen2017}{book}{}
+    \name{author}{2}{}{%
+      {{hash=ZZ}{%
+         family={Zhen},
+         familyi={Z\bibinitperiod},
+         given={Zhen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Hongwei},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Inc.}%
+    }
+    \keyw{Carbon,Graphene,Two-dimensional materials}
+    \strng{namehash}{ZZZH1}
+    \strng{fullhash}{ZZZH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Theoretically, graphene is not a new object. However, before the discovery
+  of graphene, these was always a debate over whether carbon could exist in a
+  two-dimensional (2D) form. In fact, it was commonly recognized that no
+  standalone 2D crystal is stable under certain temperatures in which layers or
+  macromolecules of such material would not be able to grow in a crystalline
+  structure according to theoretic predictions. Therefore, it is quite strange
+  that graphene appears frequently in our daily life but no one ever found it
+  until 2004. More interestingly, unlike many other scientific discoveries, the
+  first observation of graphene is highly dramatic.%
+    }
+    \field{booktitle}{Graphene: Fabrication, Characterizations, Properties and
+  Applications}
+    \verb{doi}
+    \verb 10.1016/B978-0-12-812651-6.00001-X
+    \endverb
+    \field{isbn}{9780128126516}
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{{Structure and properties of graphene}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/B978-0-12-812651-6.00001-X
+    \endverb
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Zhen, Zhu - 2017 - Structure and properties of graphene.pdf:pd
+    \verb f
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{Ribeiro}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RB}{%
+         family={Ribeiro},
+         familyi={R\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Kusuma},
+         familyi={K\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+    }
+    \strng{namehash}{RBKW1}
+    \strng{fullhash}{RBKW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1\bibrangedash 28}
+    \field{title}{{Aplikasi Metode Huckel dan Slater pada Orbital Molekul Untuk
+  Menentuan Energi Ikatan Molekul}}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Ribeiro, Kusuma - Unknown - Aplikasi Metode Huckel dan Slater
+    \verb pada Orbital Molekul Untuk Menentuan Energi Ikatan Molekul.pdf:pdf
+    \endverb
+  \endentry
+
+  \entry{Ni2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NP}{%
+         family={Ni},
+         familyi={N\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NP1}
+    \strng{fullhash}{NP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{2394-3661}
+    \field{number}{3}
+    \field{pages}{257979}
+    \field{title}{{Band gap of graphene nanoribbons calculated using Huckel
+  molecular orbital theory}}
+    \field{volume}{2}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Ni - 2015 - Band gap of graphene nanoribbons calculated using
+    \verb Huckel molecular orbital theory.pdf:pdf
+    \endverb
+    \field{journaltitle}{International Journal of Engineering and Applied
+  Sciences}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Clayden2012}{book}{}
+    \name{author}{3}{}{%
+      {{hash=CJ}{%
+         family={Clayden},
+         familyi={C\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Greeves},
+         familyi={G\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Warren},
+         familyi={W\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford}%
+    }
+    \strng{namehash}{CJGNWS1}
+    \strng{fullhash}{CJGNWS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{2nd}
+    \field{title}{{Organic Chemistry}}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Clemons2010}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CCB}{%
+         family={Clemons},
+         familyi={C\bibinitperiod},
+         given={C.\bibnamedelima B.},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=RMW}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima W.},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=WJP}{%
+         family={Wilber},
+         familyi={W\bibinitperiod},
+         given={J.\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=YGW}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={G.\bibnamedelima W.},
+         giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Buldum},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=QDD}{%
+         family={Quinn},
+         familyi={Q\bibinitperiod},
+         given={D.\bibnamedelima D.},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCB+1}
+    \strng{fullhash}{CCBRMWWJPYGWBAQDD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Using a combination of continuum modeling, atomistic simulations, and
+  numerical optimization, we estimate the flexural rigidity of a graphene
+  sheet. We consider a rectangular sheet that is initially parallel to a rigid
+  substrate. The sheet interacts with the substrate by van der Waals forces and
+  deflects in response to loading on a pair of opposite edges. To estimate the
+  flexural rigidity, we model the graphene sheet as a continuum and numerically
+  solve an appropriate differential equation for the transverse deflection.
+  This solution depends on the flexural rigidity. We then use an optimization
+  procedure to find the value of the flexural rigidity that minimizes the
+  difference between the numerical solutions and the deflections predicted by
+  atomistic simulations. This procedure predicts a flexural rigidity of 0.26nN
+  nm = 1.62 eV. Copyright {\textcopyright} 2010 M.W. Roberts et al.%
+    }
+    \verb{doi}
+    \verb 10.1155/2010/868492
+    \endverb
+    \field{issn}{16879503}
+    \field{title}{{Continuum plate theory and atomistic modeling to find the
+  flexural rigidity of a graphene sheet interacting with a substrate}}
+    \field{volume}{2010}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Clemons et al. - 2010 - Continuum plate theory and atomistic m
+    \verb odeling to find the flexural rigidity of a graphene sheet interacting
+    \verb  with.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Nanotechnology}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Ben2016}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={Ben},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Metana}}
+    \verb{url}
+    \verb https://id.wikipedia.org/wiki/Berkas:Methane-2D-dimensions.svg
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Berger2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BM}{%
+         family={Berger},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BM1}
+    \strng{fullhash}{BM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Nanowerk}
+    \field{title}{{What is Graphene?}}
+    \verb{url}
+    \verb https://www.nanowerk.com/what_is_graphene.php
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{Verjari}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=V}{%
+         family={Verjari},
+         familyi={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{V1}
+    \strng{fullhash}{V1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Graphene clothing: Exceptional sports properties}}
+    \verb{url}
+    \verb https://www.verjari.fr/en/blogs/articles/vetements-graphene-sport-clo
+    \verb thes
+    \endverb
+  \endentry
+
+  \entry{Chakraborty2018}{book}{}
+    \name{author}{2}{}{%
+      {{hash=CM}{%
+         family={Chakraborty},
+         familyi={C\bibinitperiod},
+         given={Monisha},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HMSJ}{%
+         family={Hashmi},
+         familyi={H\bibinitperiod},
+         given={M.\bibnamedelima Saleem\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd.}%
+    }
+    \keyw{2D honeycomb structure,Current and future prospect of application
+  potenti,Graphene,Properties,Two-dimensional magic materials}
+    \strng{namehash}{CMHMSJ1}
+    \strng{fullhash}{CMHMSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Graphene is a rising star. It has achieved immense research interest due to
+  its 2D honeycomb structure. It has exceptional electrical, optical, thermal,
+  mechanical, and biological properties. It claims to be a “two-dimensional
+  magic material.” This article presents the various properties of graphene.
+  The development of graphene as a material for research in wide areas like
+  biotechnology, biomedical engineering, biosensing, nanotechnology, and energy
+  conversion is comprehensively discussed. The current and future prospect of
+  application potentials and their practicalities are also presented.%
+    }
+    \field{booktitle}{Reference Module in Materials Science and Materials
+  Engineering}
+    \verb{doi}
+    \verb 10.1016/b978-0-12-803581-8.10319-4
+    \endverb
+    \field{isbn}{9780128035818}
+    \field{pages}{1\bibrangedash 17}
+    \field{title}{{Graphene as a Material – An Overview of Its Properties and
+  Characteristics and Development Potential for Practical Applications}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/B978-0-12-803581-8.10319-4
+    \endverb
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Chakraborty, Hashmi - 2018 - Graphene as a Material – An Ove
+    \verb rview of Its Properties and Characteristics and Development Potential
+    \verb  for.pdf:pdf
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{MetalgrassLTD2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Metalgrass LTD}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Graphene, a sheet of carbon atoms bound together in a honeycomb lattice
+  pattern, is hugely recognized as a “wonder material” due to the myriad of
+  astonishing attributes it holds. It is a potent conductor of electrical and
+  thermal energy, extremely lightweight chemically inert, and flexible with a
+  large surface area. It is also considered eco-friendly and sustainable, with
+  unlimited possibilities for numerous applications.%
+    }
+    \field{booktitle}{Graphene-info}
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{{Graphene batteries: Introduction and Market News}}
+    \verb{url}
+    \verb https://www.graphene-info.com/graphene-batteries
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{Korkmaz2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KS}{%
+         family={Korkmaz},
+         familyi={K\bibinitperiod},
+         given={Satiye},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=A�}{%
+         family={Af},
+         familyi={A\bibinitperiod},
+         given={İ},
+         giveni={�\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KSA�1}
+    \strng{fullhash}{KSA�1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.est.2019.101038
+    \endverb
+    \field{number}{September 2019}
+    \field{title}{{Graphene and graphene oxide based aerogels : Synthesis ,
+  characteristics and supercapacitor applications}}
+    \field{volume}{27}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Korkmaz, Af - 2020 - Graphene and graphene oxide based aerogel
+    \verb s Synthesis , characteristics and supercapacitor applications.pdf:pdf
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{Coton1990}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CFA}{%
+         family={Coton},
+         familyi={C\bibinitperiod},
+         given={F.\bibnamedelima Albert},
+         giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{CFA1}
+    \strng{fullhash}{CFA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{3}
+    \field{pages}{102}
+    \field{title}{{Chemical applications of group theory}}
+    \list{location}{1}{%
+      {New York}%
+    }
+    \field{year}{1990}
+  \endentry
+
+  \entry{Siregar2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SRE}{%
+         family={Siregar},
+         familyi={S\bibinitperiod},
+         given={Rustam\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Unpad Press}%
+    }
+    \strng{namehash}{SRE1}
+    \strng{fullhash}{SRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9786029238624}
+    \field{title}{{MEKANIKA KUANTUM MOLEKUL Struktur Elektronik Atom dan
+  Molekul}}
+    \list{location}{1}{%
+      {Jatinangor}%
+    }
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Siregar - 2014 - MEKANIKA KUANTUM MOLEKUL Struktur Elektronik
+    \verb Atom dan Molekul.pdf:pdf
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{Anil}{report}{}
+    \name{author}{2}{}{%
+      {{hash=AA}{%
+         family={Anil},
+         familyi={A\bibinitperiod},
+         given={Aradhana},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Ramasesha},
+         familyi={R\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AARS1}
+    \strng{fullhash}{AARS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Summer Research Fellowship Programme of India's Science
+  Academies}
+    \field{title}{{Huckel theory and Band theory: Computational approach}}
+    \verb{url}
+    \verb http://reports.ias.ac.in/report/14114/huckel-theory-and-band-theory-c
+    \verb omputational-approach
+    \endverb
+    \field{type}{techreport}
+  \endentry
+
+  \entry{Rustaman2008}{article}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={Rustaman},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1\bibrangedash 21}
+    \field{title}{{KEADAAN-KEADAAN TRANSISI MOLEKUL}}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Rustaman - 2008 - KEADAAN-KEADAAN TRANSISI MOLEKUL.pdf:pdf
+    \endverb
+    \field{journaltitle}{Karya Tulis Ilmiah Kimia Unpad}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Maczynski1991}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MMJ}{%
+         family={M{\c{a}}czy{\'{n}}ski},
+         familyi={M\bibinitperiod},
+         given={M.\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMJ1}
+    \strng{fullhash}{MMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0034-4877(91)90042-L
+    \endverb
+    \field{number}{1}
+    \field{pages}{81\bibrangedash 88}
+    \field{title}{{A SIMPLE DERIVATION OF HUCKEL'S MOLECULAR ORBITALS IN THE
+  FRAMEWORK OF QUANTUM LOGIC}}
+    \field{volume}{30}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/M{\c{a}}czy{\'{n}}ski - 1991 - A SIMPLE DERIVATION OF HUCKEL'S
+    \verb  MOLECULAR ORBITALS IN THE FRAMEWORK OF QUANTUM LOGIC.pdf:pdf
+    \endverb
+    \field{journaltitle}{Reports on Mathematical Physics}
+    \field{year}{1991}
+  \endentry
+
+  \entry{Imamura2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=IY}{%
+         family={Imamura},
+         familyi={I\bibinitperiod},
+         given={Yutaka},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tashiro},
+         familyi={T\bibinitperiod},
+         given={Motomichi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Katouda},
+         familyi={K\bibinitperiod},
+         given={Michio},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hada},
+         familyi={H\bibinitperiod},
+         given={Masahiko},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier B.V.}%
+    }
+    \keyw{Extrapolation,Gap,H{\"{u}}ckel theory,ONIOM,Polymer}
+    \strng{namehash}{IY+1}
+    \strng{fullhash}{IYTMKMHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This study has proposed a H{\"{u}}ckel theory-based extrapolation scheme
+  for estimating the highest occupied molecular orbital (HOMO)-the lowest
+  unoccupied molecular orbital (LUMO) gap of polymers without resorting to
+  periodic boundary condition calculations using plane wave functions with
+  hybrid functionals. The extrapolation scheme similar to ONIOM combines pure
+  density functional theory (DFT) using plane wave functions for polymers and
+  hybrid DFT using Gaussian functions for oligomers. We numerically assessed
+  the scheme for polythiophene and 380 polymers and confirmed its accuracy and
+  efficiency for polymer screening. Therefore, this scheme can be a screening
+  methodology to estimate HOMO-LUMO energy gaps.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cplett.2018.07.023
+    \endverb
+    \field{issn}{00092614}
+    \field{pages}{44\bibrangedash 48}
+    \field{title}{{Extrapolation of polymer gap by combining cluster and
+  periodic boundary condition calculations with H{\"{u}}ckel theory}}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.cplett.2018.07.023
+    \endverb
+    \field{volume}{707}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Imamura et al. - 2018 - Extrapolation of polymer gap by combin
+    \verb ing cluster and periodic boundary condition calculations with H{\"{u}
+    \verb }ckel theo.pdf:pdf
+    \endverb
+    \field{journaltitle}{Chemical Physics Letters}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Risdiana2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={Risdiana},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Unpad}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Diktat Pengantar Fisika Zat Padat}}
+    \list{location}{1}{%
+      {Jatinangor}%
+    }
+    \field{year}{2014}
+  \endentry
+
+  \entry{Tomgelly2010}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={Tomgelly},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Molecule HOMO-LUMO Diagram}}
+    \verb{url}
+    \verb https://commons.wikimedia.org/wiki/File:Molecule_HOMO-LUMO_diagram.sv
+    \verb g
+    \endverb
+    \field{year}{2010}
+  \endentry
+
+  \entry{Faizi2021}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=FS}{%
+         family={Faizi},
+         familyi={F\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Fisher},
+         familyi={F\bibinitperiod},
+         given={Craig},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FSFC1}
+    \strng{fullhash}{FSFC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Pauli Exclusion Principle}}
+    \verb{url}
+    \verb https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chem
+    \verb istry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Ch
+    \verb emistry)/Electronic_Structure_of_Atoms_and_Molecules/Electronic_Confi
+    \verb gurations/Pauli_Exclusion_Principle
+    \endverb
+    \field{year}{2021}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Bird2002}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=BJP}{%
+         family={Bird},
+         familyi={B\bibinitperiod},
+         given={J\bibnamedelima P},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \name{editor}{8}{}{%
+      {{hash=BKHJ}{%
+         family={Buschow},
+         familyi={B\bibinitperiod},
+         given={K\bibnamedelima H\bibnamedelima J{\"{u}}rgen},
+         giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+      {{hash=CRW}{%
+         family={Cahn},
+         familyi={C\bibinitperiod},
+         given={Robert\bibnamedelima W},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=FMC}{%
+         family={Flemings},
+         familyi={F\bibinitperiod},
+         given={Merton\bibnamedelima C},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=IB}{%
+         family={Ilschner},
+         familyi={I\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KEJ}{%
+         family={Kramer},
+         familyi={K\bibinitperiod},
+         given={Edward\bibnamedelima J},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mahajan},
+         familyi={M\bibinitperiod},
+         given={Subhash},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VPBTEoMS}{%
+         family={Veyssi{\`{e}}re},
+         familyi={V\bibinitperiod},
+         given={Patrick B T Encyclopedia of Materials:\bibnamedelima Science},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
+  T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  o\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=T}{%
+         family={Technology},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BJP1}
+    \strng{fullhash}{BJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/B0-08-043152-6/01854-4
+    \endverb
+    \field{isbn}{978-0-08-043152-9}
+    \field{pages}{1\bibrangedash 16}
+    \field{title}{{Semiconductors: An Introduction}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/B0080431526018544
+    \endverb
+    \list{location}{1}{%
+      {Oxford}%
+    }
+    \field{year}{2002}
+  \endentry
+
+  \entry{Abdussalam2017}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=AW}{%
+         family={Abdussalam},
+         familyi={A\bibinitperiod},
+         given={Wildan},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AW1}
+    \strng{fullhash}{AW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Dynamics of Rydberg atom lattices in the presence of noise
+  and dissipation}}
+    \list{institution}{1}{%
+      {Technischen Universit{\"{a}}t Dresden}%
+    }
+    \verb{file}
+    \verb :home/azrimadit/Documents/Otw_Lulus/Jurnal/Absorbance/49034214.pdf:pd
+    \verb f
+    \endverb
+    \field{type}{phdthesis}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Davis2004}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DT}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DT1}
+    \strng{fullhash}{DT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Block matrix methods: Taking advantage of high-performance
+  computers}}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Davis - 2004 - Block matrix methods Taking advantage of high-p
+    \verb erformance computers.pdf:pdf
+    \endverb
+    \field{year}{2004}
+  \endentry
+
+  \entry{Ford2003}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FW}{%
+         family={Ford},
+         familyi={F\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{FW1}
+    \strng{fullhash}{FW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Numerical Linear Algebra with Applications}
+    \verb{doi}
+    \verb 10.1002/nla.335
+    \endverb
+    \field{isbn}{9780123944351}
+    \field{issn}{10705325}
+    \field{number}{7}
+    \field{pages}{561}
+    \field{title}{{Numerical Linear Algebra with Applications: Editorial}}
+    \field{volume}{10}
+    \list{location}{1}{%
+      {USA}%
+    }
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Ford - 2003 - Numerical Linear Algebra with Applications Edito
+    \verb rial.pdf:pdf;:home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley
+    \verb  Desktop/Downloaded/Ford - 2003 - Numerical Linear Algebra with Appli
+    \verb cations Editorial(2).pdf:pdf
+    \endverb
+    \field{year}{2003}
+  \endentry
+
+  \entry{Pisciuneri2016}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PP}{%
+         family={Pisciuneri},
+         familyi={P\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PP1}
+    \strng{fullhash}{PP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{How Target Performance Tunes Machine Learning Applications}}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Saqlain2017}{book}{}
+    \name{author}{4}{}{%
+      {{hash=SM}{%
+         family={Saqlain},
+         familyi={S\bibinitperiod},
+         given={Muhammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Liaqat},
+         familyi={L\bibinitperiod},
+         given={Rao},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SNA}{%
+         family={Saqib},
+         familyi={S\bibinitperiod},
+         given={Nazar\bibnamedelima Abbas},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hameed},
+         familyi={H\bibinitperiod},
+         given={Mazhar},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMLRSNAHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Today the most significant public health problem is Heart Failure (HF).
+  There are a lot of raw medical data available to healthcare organizations in
+  the form of structured and unstructured datasets, but the need is to analyze
+  this data to get information and to make intelligent decisions. By using data
+  mining, classification tool on a real dataset of cardiac patients we propose
+  a model which classified these patients into four major classes. This model
+  will help to identify the risk of HF and patients who have no HF signs but
+  structural irregularities. We can also identify the patients having HF signs
+  and irregularities and those having the critical stage of HF. This paper
+  provides a detailed summary of modern strategies for management and analysis
+  of HF patients by classes (1 to 4) that have appeared in the past few years.%
+    }
+    \verb{doi}
+    \verb 10.1007/978-3-319-51234-1_6
+    \endverb
+    \field{isbn}{978-3-319-51233-4}
+    \field{pages}{36\bibrangedash 43}
+    \field{title}{{A Classification Model for Predicting Heart Failure in
+  Cardiac Patients}}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Oracle2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Oracle},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Big Data Defined}}
+    \verb{url}
+    \verb https://www.oracle.com/big-data/what-is-big-data/
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{Shakhovska2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SN}{%
+         family={Shakhovska},
+         familyi={S\bibinitperiod},
+         given={Nataliya},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Boyko},
+         familyi={B\bibinitperiod},
+         given={Nataliya},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zasoba},
+         familyi={Z\bibinitperiod},
+         given={Yevgen},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Benova},
+         familyi={B\bibinitperiod},
+         given={Eleonora},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier B.V.}%
+    }
+    \keyw{Big data: Web application,Modeling: Processing, analytics}
+    \strng{namehash}{SN+1}
+    \strng{fullhash}{SNBNZYBE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The analysis of Big data technologies was provided. An example of MapReduce
+  paradigm application, uploading of big volumes of data, processmg and
+  analyzmg of unstructured mformation and its distribution into the clustered
+  database was provided. The article summarizes the concept of "big data".
+  Examples of methods for workmg with arrays of unstructured data are given.
+  The parallel system Resilient Distributed Datasets (RDD) is organized. The
+  class of basic database operations was realized: Database con-nection. table
+  creation gettmg in lme id. remrmng all elements of the database, update,
+  delete and create the line.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.procs.2019.11.047
+    \endverb
+    \field{issn}{18770509}
+    \field{number}{2018}
+    \field{pages}{561\bibrangedash 566}
+    \field{title}{{Big data processing technologies in distributed information
+  systems}}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.procs.2019.11.047
+    \endverb
+    \field{volume}{160}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Shakhovska et al. - 2019 - Big data processing technologies in
+    \verb  distributed information systems.pdf:pdf
+    \endverb
+    \field{journaltitle}{Procedia Computer Science}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Moura2015}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=MJ}{%
+         family={Moura},
+         familyi={M\bibinitperiod},
+         given={Jose},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Serrao},
+         familyi={S\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJSC1}
+    \strng{fullhash}{MJSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.4018/978-1-4666-8505-5.ch002
+    \endverb
+    \field{isbn}{9781466685055}
+    \field{title}{{Security and Privacy Issues of Big Data}}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Schaafsma2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SS}{%
+         family={Schaafsma},
+         familyi={S\bibinitperiod},
+         given={Seth},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SS1}
+    \strng{fullhash}{SS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Big Data: The 6 Vs You Need to Look at for Important
+  Insights}}
+    \verb{url}
+    \verb https://www.motivaction.nl/en/news/blog/big-data-the-6-vs-you-need-to
+    \verb -look-at-for-important-insights
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{Fadillah2020}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=FN}{%
+         family={Fadillah},
+         familyi={F\bibinitperiod},
+         given={Nurfauzi},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FN1}
+    \strng{fullhash}{FN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Rancang Bangun Prototipe Sistem Pemrosesan Big Data untuk
+  Analisis dan Pemantauan Sistem Daya Listrik}}
+    \list{institution}{1}{%
+      {Universitas Padjadjaran}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Stewart2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Handling Big Datasets for Machine Learning - Towards Data
+  Science}}
+    \verb{url}
+    \verb https://towardsdatascience.com/machine-learning-with-big-data-86bcb39
+    \verb f2f0b
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{Harvey2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=HC}{%
+         family={Harvey},
+         familyi={H\bibinitperiod},
+         given={Chynthia},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HC1}
+    \strng{fullhash}{HC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Big Data Pros and Cons}}
+    \verb{url}
+    \verb https://www.datamation.com/big-data/big-data-pros-and-cons.html
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Apache2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Apache},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Apache Spark}}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Chand2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CS}{%
+         family={Chand},
+         familyi={C\bibinitperiod},
+         given={Swatee},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS1}
+    \strng{fullhash}{CS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{PySpark Programming – Integrating Speed With Simplicity}}
+    \verb{url}
+    \verb https://www.edureka.co/blog/pyspark-programming/
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{Kumar2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=KK}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Krishna},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KK1}
+    \strng{fullhash}{KK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{GitHub: Data Analytics}}
+    \verb{url}
+    \verb https://kks32-courses.gitbook.io/data-analytics/spark/rdd#partitions
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Databricks}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={Databricks},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Apache Spark}}
+  \endentry
+
+  \entry{Bekker2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Bekker},
+         familyi={B\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Spark vs. Hadoop MapReduce: Which big data framework to
+  choose}}
+    \verb{url}
+    \verb https://www.scnsoft.com/blog/spark-vs-hadoop-mapreduce
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{Tutorialspoint}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={Tutorialspoint},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{PySpark - SparkContext}}
+    \verb{url}
+    \verb https://www.tutorialspoint.com/pyspark/pyspark_sparkcontext.htm
+    \endverb
+  \endentry
+\enddatalist
+\endinput

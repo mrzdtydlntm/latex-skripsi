@@ -1,0 +1,44 @@
+\BOOKMARK [0][-]{chapter*.2}{LEMBAR PENGESAHAN}{}% 1
+\BOOKMARK [0][-]{Item.15}{KATA PENGANTAR}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{ABSTRAK}{}% 3
+\BOOKMARK [0][-]{chapter*.5}{ABSTRACT}{}% 4
+\BOOKMARK [0][-]{chapter*.6}{DAFTAR ISI}{}% 5
+\BOOKMARK [0][-]{chapter*.7}{DAFTAR GAMBAR}{}% 6
+\BOOKMARK [0][-]{chapter*.8}{DAFTAR TABEL}{}% 7
+\BOOKMARK [0][-]{chapter*.9}{BAB I PENDAHULUAN}{}% 8
+\BOOKMARK [1][-]{section.1.1}{Latar Belakang}{chapter*.9}% 9
+\BOOKMARK [1][-]{section.1.2}{Identifikasi Masalah}{chapter*.9}% 10
+\BOOKMARK [1][-]{section.1.3}{Batasan Masalah}{chapter*.9}% 11
+\BOOKMARK [1][-]{section.1.4}{Tujuan Penelitian}{chapter*.9}% 12
+\BOOKMARK [1][-]{section.1.5}{Manfaat Penelitian}{chapter*.9}% 13
+\BOOKMARK [0][-]{chapter*.10}{BAB II TINJAUAN PUSTAKA}{}% 14
+\BOOKMARK [1][-]{section.2.1}{Kimia Organik}{chapter*.10}% 15
+\BOOKMARK [1][-]{section.2.2}{Graphene}{chapter*.10}% 16
+\BOOKMARK [1][-]{section.2.3}{Teori H\374ckel}{chapter*.10}% 17
+\BOOKMARK [1][-]{section.2.4}{Teori Pita}{chapter*.10}% 18
+\BOOKMARK [1][-]{section.2.5}{Spektrum Absorbansi}{chapter*.10}% 19
+\BOOKMARK [1][-]{section.2.6}{Block Matrix}{chapter*.10}% 20
+\BOOKMARK [1][-]{section.2.7}{Big Data}{chapter*.10}% 21
+\BOOKMARK [2][-]{subsection.2.7.1}{Apache Spark}{section.2.7}% 22
+\BOOKMARK [0][-]{chapter*.13}{BAB III METODE PENELITIAN}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Perancangan Algoritma Penelitian}{chapter*.13}% 24
+\BOOKMARK [1][-]{section.3.2}{Alat yang Digunakan}{chapter*.13}% 25
+\BOOKMARK [2][-]{subsection.3.2.1}{Perangkat Lunak}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.2}{Perangkat Keras}{section.3.2}% 27
+\BOOKMARK [1][-]{section.3.3}{Perancangan Kode Komputasi}{chapter*.13}% 28
+\BOOKMARK [2][-]{subsection.3.3.1}{Perancangan Matriks Hamiltonian}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.2}{Perancangan Kalkulasi Celah Energi}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.3}{Perancangan Kalkulasi Celah Energi dengan Python dan PySpark}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.4}{Perancangan Kalkulasi Absorbansi terhadap Perubahan Energi Eksitasi}{section.3.3}% 32
+\BOOKMARK [0][-]{chapter*.14}{BAB IV HASIL DAN PEMBAHASAN}{}% 33
+\BOOKMARK [1][-]{section.4.1}{Hasil Kode Komputasi}{chapter*.14}% 34
+\BOOKMARK [2][-]{subsection.4.1.1}{Hasil Matriks Hamiltonian}{section.4.1}% 35
+\BOOKMARK [2][-]{subsection.4.1.2}{Hasil Kalkulasi Celah Energi}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.3}{Hasil Kalkulasi Celah Energi dengan Python dan PySpark}{section.4.1}% 37
+\BOOKMARK [2][-]{subsection.4.1.4}{Hasil Kalkulasi Absorbansi terhadap Perubahan Energi Eksitasi}{section.4.1}% 38
+\BOOKMARK [0][-]{chapter*.15}{BAB V KESIMPULAN DAN SARAN}{}% 39
+\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter*.15}% 40
+\BOOKMARK [1][-]{section.5.2}{Saran}{chapter*.15}% 41
+\BOOKMARK [0][-]{section.5.2}{DAFTAR PUSTAKA}{}% 42
+\BOOKMARK [0][-]{section*.18}{DAFTAR LAMPIRAN}{}% 43
+\BOOKMARK [1][-]{section*.19}{Matriks Hamiltonian}{section*.18}% 44
