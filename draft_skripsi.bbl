@@ -292,6 +292,73 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Sahu2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SS}{%
+         family={Sahu},
+         familyi={S\bibinitperiod},
+         given={Sivabrata},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RGC}{%
+         family={Rout},
+         familyi={R\bibinitperiod},
+         given={G\bibnamedelima C},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \keyw{Coulomb interaction,Electron–phonon
+  inter,Graphene,graphene,graphene {\'{a}} coulomb interaction,phonon
+  interaction {\'{a}} bi-layer,{\'{a}} electron}
+    \strng{namehash}{SSRGC1}
+    \strng{fullhash}{SSRGC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Graphene, being a gapless semiconductor, cannot be used in pristine form
+  for nano-electronic applications. Therefore, it is essential to generate a
+  finite gap in the energy dispersion at Dirac point. We present here the
+  tight-binding model Hamiltonian taking into account of various interactions
+  for tuning band gap in graphene. The model Hamiltonian describes the hopping
+  of the p-electrons up to third nearest-neighbours, substrate effects, Coulomb
+  interaction at two sub-lattices, electron-phonon interaction in
+  graphene-on-substrates and high phonon frequency vibrations , besides the
+  bi-layer graphene. We have solved the Hamiltonian using Zubarev's double time
+  single particle Green's function technique. The quasi-particle energies,
+  electron band dispersions, the expression for effective band gap and the
+  density of states (DOS) are calculated numerically. The results are discussed
+  by varying different model parameters of the system. It is observed that the
+  electron DOS and band dispersion exhibit linear energy dependence near Dirac
+  point for nearest-neighbour hopping integral. However, the second and third
+  nearest-neighbour hoppings provide asymmetry in DOS. The band dispersions
+  exhibit wider band gaps with stronger substrate effect. The modified gap in
+  graphene-on-substrate attains its maximum value for Coulomb interaction
+  energy U C ¼ 1:7t 1. The critical Coulomb interaction is enhanced to U C ¼
+  2:5t 1 to produce maximum band gap in the presence of electron-phonon
+  interaction and phonon vibration. The bi-layer graphene exhibits Mexican hat
+  type band gap near Dirac point for transverse gating potential. The other
+  conclusions for the present work are described in the text.%
+    }
+    \verb{doi}
+    \verb 10.1007/s40089-017-0203-5
+    \endverb
+    \field{issn}{2008-9295}
+    \field{number}{2}
+    \field{pages}{81\bibrangedash 89}
+    \field{title}{{Band gap opening in graphene: a short theoretical study}}
+    \field{volume}{7}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Sahu, Rout - 2017 - Band gap opening in graphene a short theor
+    \verb etical study.pdf:pdf
+    \endverb
+    \field{journaltitle}{International Nano Letters}
+    \field{year}{2017}
+  \endentry
+
   \entry{Berger2019}{misc}{}
     \name{author}{1}{}{%
       {{hash=BM}{%
@@ -329,6 +396,45 @@
     \verb https://www.verjari.fr/en/blogs/articles/vetements-graphene-sport-clo
     \verb thes
     \endverb
+  \endentry
+
+  \entry{10.1088/2053-2563/ab35d1ch1}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=RM}{%
+         family={Razeghi},
+         familyi={R\bibinitperiod},
+         given={Manijeh},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \keyw{Razeghi}
+    \strng{namehash}{RM1}
+    \strng{fullhash}{RM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This chapter gives a general overview on the carbon atom and its remarkable
+  electronic properties that allow this element to form various allotropes.
+  These different molecules show an outstanding diversity of macroscopic
+  properties making carbon such a unique element. A quick introduction to band
+  structure theory is also provided to the reader.%
+    }
+    \field{booktitle}{The Mystery of Carbon}
+    \verb{doi}
+    \verb 10.1088/2053-2563/ab35d1ch1
+    \endverb
+    \field{isbn}{978-0-7503-1182-3}
+    \field{pages}{1\bibrangedash 12}
+    \field{series}{2053-2563}
+    \field{title}{{The carbon atom}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1088/2053-2563/ab35d1ch1
+    \endverb
+    \field{type}{Book Chapter}
+    \field{year}{2019}
   \endentry
 
   \entry{Chakraborty2018}{book}{}
@@ -385,34 +491,6 @@
     \verb  for.pdf:pdf
     \endverb
     \field{year}{2018}
-  \endentry
-
-  \entry{MetalgrassLTD2019}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=M}{%
-         family={{Metalgrass LTD}},
-         familyi={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{M1}
-    \strng{fullhash}{M1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Graphene, a sheet of carbon atoms bound together in a honeycomb lattice
-  pattern, is hugely recognized as a “wonder material” due to the myriad of
-  astonishing attributes it holds. It is a potent conductor of electrical and
-  thermal energy, extremely lightweight chemically inert, and flexible with a
-  large surface area. It is also considered eco-friendly and sustainable, with
-  unlimited possibilities for numerous applications.%
-    }
-    \field{booktitle}{Graphene-info}
-    \field{pages}{1\bibrangedash 12}
-    \field{title}{{Graphene batteries: Introduction and Market News}}
-    \verb{url}
-    \verb https://www.graphene-info.com/graphene-batteries
-    \endverb
-    \field{year}{2019}
   \endentry
 
   \entry{Korkmaz2020}{article}{}
@@ -559,7 +637,7 @@
       {{hash=MMJ}{%
          family={M{\c{a}}czy{\'{n}}ski},
          familyi={M\bibinitperiod},
-         given={M.\bibnamedelima J.},
+         given={M\bibnamedelima J},
          giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
