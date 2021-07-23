@@ -989,6 +989,37 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Gallier2010}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GJ}{%
+         family={Gallier},
+         familyi={G\bibinitperiod},
+         given={Jean},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJ1}
+    \strng{fullhash}{GJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this note, we provide some details and proofs of some results from
+  Appendix A.5 (especially Section A.5.5) of Convex Optimization by Boyd and
+  Vandenberghe.%
+    }
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{{The Schur Complement and Symmetric Positive Semidefinite (
+  and Definite ) Matrices}}
+    \verb{url}
+    \verb http://www.cis.upenn.edu/$\sim$jean/schur-comp.pdf
+    \endverb
+    \verb{file}
+    \verb :home/azrimadit/Documents/Otw_Lulus/Jurnal/Matrix/schur-comp.pdf:pdf
+    \endverb
+    \field{journaltitle}{Complement}
+    \field{year}{2010}
+  \endentry
+
   \entry{Saqlain2017}{book}{}
     \name{author}{4}{}{%
       {{hash=SM}{%

@@ -352,14 +352,14 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 	Graphene hanya terdiri dari atom C yang jarak antar atom C sebesar ± 0.142 nm \cite{Zhen2017} dan jarak interplanar nya 0.335 nm. Setiap atom karbon (atom C) memiliki radius $\pm$ 170 pm atau 0.17 nm (\textit{Van der Walls radius}) \cite{10.1088/2053-2563/ab35d1ch1}. Graphene memiliki mobilitas elektron lebih dari 15000 $ cm^2 V^{-1} s^{-1} $. Dari sini bisa disimpulkan bahwa Graphene memiliki sifat kimia dan fisiknya yang sangat baik. Lalu karena Graphene adalah dasar dari alotrop grafit, lalu dapat dibentuk menjadi fullerene 0D, digulung menjadi tabung nano (nanotube) 1D, dan ditumpuk menjadi grafit 3D, inilah sebabnya Graphene disebut sebagai induk dari grafit \cite{Chakraborty2018}.
 		
 	\begin{center}
-	\includegraphics[width=8.75cm]{gambar/grafen.png}
+	\includegraphics[width=8cm]{gambar/grafen.png}
 	\captionof{figure}{\textit{Struktur Senyawa Graphene} \cite{Clemons2010}}
 	\end{center}
 	
 	Aplikasi dari Graphene bisa digunakan menjadi resonator, saklar, katup, konduktor dan beberapa aplikasi lainnya \cite{Clemons2010}.
 	
 	\begin{center}
-		\includegraphics[width=8.75cm]{gambar/oksgraf.png}
+		\includegraphics[width=8cm]{gambar/oksgraf.png}
 		\captionof{figure}{\textit{Pembuatan Graphene dari Graphite} \cite{Korkmaz2020}}
 	\end{center}
 	
@@ -398,13 +398,13 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 	Integral yang ada di persamaan \eqref{hij} bisa didefinisikan sebagai data empiris. Contohnya adalah {$H_{ii}$} adalah potensial ionisasi elektron-{$\pi$} di karbon ke-i dan {$H_{i,i{\pm}1}$} dalah energi yang dibutuhkan untuk elektron-{$\pi$} melompat ke atom terdekatnya. Karena {$S_{ii}=1$} dan {$S_{ij}$} jauh lebih kecil daripada 1 maka dapat diabaikan. Maka,
 	\begin{equation}
 	\label{alphabeta}
-	\begin{split}
-	\alpha ; i = j
+	\begin{cases}
+	\alpha ; \  i = j
 	\\
-	H_{ij} = \beta ; j = i{\pm}1
+	H_{ij} = \beta ; \ j = i{\pm}1
 	\\
-	0 ; lainnya
-	\end{split}
+	0 ; \ lainnya
+	\end{cases}
 	\end{equation}
 	Singkatnya, persamaan \eqref{alphabeta} dapat menjadi sebuah persamaan matriks yang ditulis dengan,
 	\begin{equation}
@@ -520,7 +520,7 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 	a_{43} & a_{44}
 	\end{bmatrix}
 	\end{equation}
-	Salah satu metode Block Matrix adalah dengan menggunakan \textit{Schur Decomposition}. Dekomposisi Schur akan membagi sebuah matriks menjadi 4 buah sub matriks dan menghitung determinan tiap sub matriksnya. Jika menggunakan persamaan \eqref{submat}, maka dekomposisi Schur nya menjadi
+	Salah satu metode Block Matrix adalah dengan menggunakan \textit{Schur Decomposition}. Dekomposisi Schur akan membagi sebuah matriks menjadi 4 buah sub matriks dan menghitung determinan tiap sub matriksnya \cite{Gallier2010}. Jika menggunakan persamaan \eqref{submat}, maka dekomposisi Schur nya menjadi
 	\begin{equation}
 	\label{schur}
 	det\begin{bmatrix}

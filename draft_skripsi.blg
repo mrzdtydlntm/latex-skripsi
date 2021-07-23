@@ -22,7 +22,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10977 items from 5000.
+Reallocated field_info (elt_size=4) to 11116 items from 5000.
 Database file #1: draft_skripsi-blx.bib
 Database file #2: referensi.bib
 Repeated entry---line 1380 of file referensi.bib
@@ -40,45 +40,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 43 entries,
+You've used 44 entries,
             6365 wiz_defined-function locations,
-            1502 strings with 25588 characters,
-and the built_in function-call counts, 208335 in all, are:
-= -- 13720
-> -- 4268
-< -- 970
-+ -- 4620
-- -- 1814
-* -- 13800
-:= -- 20681
+            1510 strings with 25993 characters,
+and the built_in function-call counts, 211823 in all, are:
+= -- 13905
+> -- 4339
+< -- 986
++ -- 4678
+- -- 1839
+* -- 14022
+:= -- 20979
 add.period$ -- 0
-call.type$ -- 43
-change.case$ -- 528
+call.type$ -- 44
+change.case$ -- 535
 chr.to.int$ -- 92
-cite$ -- 84
-duplicate$ -- 21888
-empty$ -- 20293
-format.name$ -- 2275
-if$ -- 43677
+cite$ -- 86
+duplicate$ -- 22304
+empty$ -- 20667
+format.name$ -- 2319
+if$ -- 44427
 int.to.chr$ -- 0
-int.to.str$ -- 110
+int.to.str$ -- 112
 missing$ -- 0
-newline$ -- 1247
-num.names$ -- 1893
-pop$ -- 14231
+newline$ -- 1275
+num.names$ -- 1931
+pop$ -- 14553
 preamble$ -- 1
-purify$ -- 720
+purify$ -- 730
 quote$ -- 0
-skip$ -- 7157
+skip$ -- 7304
 stack$ -- 0
-substring$ -- 22745
-swap$ -- 5284
-text.length$ -- 836
+substring$ -- 22976
+swap$ -- 5401
+text.length$ -- 853
 text.prefix$ -- 1
 top$ -- 1
-type$ -- 1443
+type$ -- 1477
 warning$ -- 0
-while$ -- 2708
+while$ -- 2754
 width$ -- 0
-write$ -- 1205
+write$ -- 1232
 (There were 4 error messages)
