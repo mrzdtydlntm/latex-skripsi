@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.3)  23 JUL 2021 05:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.3)  23 JUL 2021 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1588,66 +1588,61 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <gambar/bandgap.png, id=829, 752.8125pt x 451.6875pt>
 File: gambar/bandgap.png Graphic file (type png)
 <use gambar/bandgap.png>
-Package pdftex.def Info: gambar/bandgap.png  used on input line 861.
-(pdftex.def)             Requested size: 284.52756pt x 170.71947pt.
+Package pdftex.def Info: gambar/bandgap.png  used on input line 863.
+(pdftex.def)             Requested size: 341.43306pt x 204.86337pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 862.
+(caption)                particular \caption on input line 864.
 See the caption package documentation for explanation.
 
-[36 <./gambar/benzene-energy.png> <./gambar/c10_energy.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<gambar/performa_komputasi.png, id=838, 1129.21875pt x 752.8125pt>
+[36 <./gambar/benzene-energy.png> <./gambar/c10_energy.png>] [37 <./gambar/band
+gap.png>]
+<gambar/performa_komputasi.png, id=843, 1129.21875pt x 752.8125pt>
 File: gambar/performa_komputasi.png Graphic file (type png)
 <use gambar/performa_komputasi.png>
-Package pdftex.def Info: gambar/performa_komputasi.png  used on input line 894.
+Package pdftex.def Info: gambar/performa_komputasi.png  used on input line 896.
 
-(pdftex.def)             Requested size: 312.9803pt x 208.64948pt.
+(pdftex.def)             Requested size: 341.43306pt x 227.62596pt.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 895.
+(caption)                particular \caption on input line 897.
 See the caption package documentation for explanation.
 
-[37 <./gambar/bandgap.png>] [38 <./gambar/performa_komputasi.png>] [39]
-[40]
+[38 <./gambar/performa_komputasi.png>] [39] [40]
 <gambar/spectra-benzene.png, id=865, 752.8125pt x 451.6875pt>
 File: gambar/spectra-benzene.png Graphic file (type png)
 <use gambar/spectra-benzene.png>
-Package pdftex.def Info: gambar/spectra-benzene.png  used on input line 959.
+Package pdftex.def Info: gambar/spectra-benzene.png  used on input line 961.
 (pdftex.def)             Requested size: 284.52756pt x 170.71947pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 960.
-See the caption package documentation for explanation.
-
-<gambar/spectra-graphene50.png, id=869, 752.8125pt x 451.6875pt>
-File: gambar/spectra-graphene50.png Graphic file (type png)
-<use gambar/spectra-graphene50.png>
-Package pdftex.def Info: gambar/spectra-graphene50.png  used on input line 968.
-
-(pdftex.def)             Requested size: 284.52756pt x 170.71947pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 969.
+(caption)                particular \caption on input line 962.
 See the caption package documentation for explanation.
 
 [41 <./gambar/spectra-benzene.png>]
-<gambar/spectra-graphene400.png, id=875, 752.8125pt x 451.6875pt>
-File: gambar/spectra-graphene400.png Graphic file (type png)
-<use gambar/spectra-graphene400.png>
-Package pdftex.def Info: gambar/spectra-graphene400.png  used on input line 973
-.
+<gambar/spectra-graphene50.png, id=874, 752.8125pt x 451.6875pt>
+File: gambar/spectra-graphene50.png Graphic file (type png)
+<use gambar/spectra-graphene50.png>
+Package pdftex.def Info: gambar/spectra-graphene50.png  used on input line 970.
+
 (pdftex.def)             Requested size: 284.52756pt x 170.71947pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 974.
+(caption)                particular \caption on input line 971.
+See the caption package documentation for explanation.
+
+<gambar/spectra-graphene400.png, id=875, 752.8125pt x 451.6875pt>
+File: gambar/spectra-graphene400.png Graphic file (type png)
+<use gambar/spectra-graphene400.png>
+Package pdftex.def Info: gambar/spectra-graphene400.png  used on input line 975
+.
+(pdftex.def)             Requested size: 284.52756pt x 170.71947pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 976.
 See the caption package documentation for explanation.
 
 [42 <./gambar/spectra-graphene50.png> <./gambar/spectra-graphene400.png>]
@@ -1658,13 +1653,13 @@ See the caption package documentation for explanation.
 ] [46] [47] [48] [49] [50]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 1004.
+(hyperref)                be the same. Added a new anchor on input line 1006.
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 1005.
+nput line 1007.
 
 (./koding/huckel.py [51
 
@@ -1686,36 +1681,36 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 <gambar/mp_pool.png, id=1289, 1371.1225pt x 770.88pt>
 File: gambar/mp_pool.png Graphic file (type png)
 <use gambar/mp_pool.png>
-Package pdftex.def Info: gambar/mp_pool.png  used on input line 1026.
+Package pdftex.def Info: gambar/mp_pool.png  used on input line 1028.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
  [63]
 <gambar/spark-submit.png, id=1314, 1371.1225pt x 770.88pt>
 File: gambar/spark-submit.png Graphic file (type png)
 <use gambar/spark-submit.png>
-Package pdftex.def Info: gambar/spark-submit.png  used on input line 1032.
+Package pdftex.def Info: gambar/spark-submit.png  used on input line 1034.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 <gambar/gcp.png, id=1315, 861.9703pt x 180.675pt>
 File: gambar/gcp.png Graphic file (type png)
 <use gambar/gcp.png>
-Package pdftex.def Info: gambar/gcp.png  used on input line 1038.
+Package pdftex.def Info: gambar/gcp.png  used on input line 1040.
 (pdftex.def)             Requested size: 369.88582pt x 77.53159pt.
 <gambar/kst.png, id=1316, 668.4975pt x 188.20313pt>
 File: gambar/kst.png Graphic file (type png)
 <use gambar/kst.png>
-Package pdftex.def Info: gambar/kst.png  used on input line 1044.
+Package pdftex.def Info: gambar/kst.png  used on input line 1046.
 (pdftex.def)             Requested size: 312.9803pt x 88.11661pt.
  [64 <./gambar/mp_pool.png> <./gambar/spark-submit.png> <./gambar/gcp.png>]
 <gambar/neofetch-gcp.png, id=1324, 1371.1225pt x 770.88pt>
 File: gambar/neofetch-gcp.png Graphic file (type png)
 <use gambar/neofetch-gcp.png>
-Package pdftex.def Info: gambar/neofetch-gcp.png  used on input line 1050.
+Package pdftex.def Info: gambar/neofetch-gcp.png  used on input line 1052.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1053.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1055.
  [65 <./gambar/kst.png> <./gambar/neofetch-gcp.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1053.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1055.
  (./draft_skripsi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1053.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1053.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1055.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1055.
 
 Package rerunfilecheck Info: File `draft_skripsi.out' has not changed.
 (rerunfilecheck)             Checksum: 84CAF89FBFF0B320238F381A339E95BD;3814.
@@ -1726,7 +1721,7 @@ Package logreq Info: Writing requests to 'draft_skripsi.run.xml'.
 Here is how much of TeX's memory you used:
  23151 strings out of 481239
  416466 string characters out of 5920377
- 1104397 words of memory out of 5000000
+ 1104395 words of memory out of 5000000
  37433 multiletter control sequences out of 15000+600000
  585154 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1743,7 +1738,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on draft_skripsi.pdf (78 pages, 1701838 bytes).
+Output written on draft_skripsi.pdf (78 pages, 1704339 bytes).
 PDF statistics:
  1495 PDF objects out of 1728 (max. 8388607)
  1313 compressed objects within 14 object streams

@@ -244,7 +244,7 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 \chapter*{\centering \textit{ABSTRACT}}
 \thispagestyle{myplain}
 \begin{spacing}{1.0}
-\noindent \\
+\noindent Organic chemical compounds are one of the chemical compounds that are often studied, one way to investigate these compounds is to use a quantum approach called Physycochemical. Graphene is one of the organic chemical compounds whose characteristics can be observed using the Hückel Theory, which will look at the interactions between $\pi$-bond in these compounds. The use of the eigen calculation of the time-independent Schrödinger equation will yield the energy values of the molecular orbitals and the value of the wave constant. These two values will be used to find the absorption value. When using a larger Hamiltonian matrix, it will cause a bottleneck in processing the data. So that the computational performance does not decrease, calculations using the Block Matrix technique and the Big Data technique are used. The results show that, the more carbon atoms that Graphene has, the smaller the energy gap produced due to the decrease in the distance between the molecular orbital energies. Moreover, the fastest computational performance for calculating the energy gap is also generated, namely by using PySpark. The value of the change in excitation energy and the transition dipole moment obtained from the calculation of the eigenvalues will describe the absorption graph of the excitation energy, where the highest absorption point describes the energy gap point.\\
 \textbf{Keywords: \textit{Graphene, Hückel Theory, Band Theory, Absorbance Energy, PySpark}}
 \end{spacing}
 \addcontentsline{toc}{chapter}{ABSTRACT}
@@ -287,8 +287,8 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 
 	\section{Identifikasi Masalah}
 	\begin{enumerate}
-		\item Bagaimana pengaruh besar dimensi matriks terhadap laju komputasi yang dimiliki
 	   	\item Bagaimana pita energi yang dimiliki oleh Graphene
+	   	\item Bagaimana pengaruh penggunaan PySpark terhadap waktu komputasi matriks yang dibutuhkan
 	   	\item Bagaimana Spektrum Absorbansi terhadap Perubahan Energi dari Graphene
 	\end{enumerate}
 
@@ -314,8 +314,8 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 	\begin{enumerate}
 		\item Merancang algoritma untuk membangun matriks Hamiltonian dan kalkulasi spektrum absorbsi
 		\item Dapat mengetahui hubungan antara besar celah energi tiap banyaknya atom yang terlibat
+		\item Membandingkan performa komputasi menggunakan PySpark, dan Python dengan variasi \textit{serial processing}, \textit{multiprocessing} dan \textit{threading}
 		\item Mengetahui spektrum pita energi yang dimiliki oleh Graphene
-		\item Membandingkan performa komputasi menggunakan PySpark, dan Python dengan \textit{module} \textit{multiprocessing} dan \textit{threading}
 	\end{enumerate}
 
 	\section{Manfaat Penelitian}
@@ -626,7 +626,7 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 \setcounter{equation}{0}
 \thispagestyle{myplain}
 
-Penelitian Kalkulasi Nilai Eigen berbasis Matriks Hamiltonian menggunakan Teknik \textit{Block Matrix} : Studi Kasus Pada \textit{Graphene} dilakukan dengan 3 tahapan, yaitu perancangan algoritma penelitian, perancangan kode komputasi dan simulasi data. Perancangan algoritma penelitian akan membuat cara kerja aplikasi yang akan dibuat dimulai dari \textit{Start} hingga komputasi berakhir. Dalam perancangan kode komputasi akan dibuat kode berbahasa \textit{Python} yang akan dieksekusi oleh PySpark. Tahap terakhir adalah simulasi data. Simulasi data akan mensimulasikan kode yang sudah dibuat menggnakan perangkat komputer dengan spesifikasi yang ditentukan. Dari hasil simulasi data ini akan dilihat validitas dan performa komputasi yang dihasilkan.
+Penelitian Kalkulasi Nilai Eigen berbasis Matriks Hamiltonian menggunakan Teknik \textit{Block Matrix} : Studi Kasus Pada \textit{Graphene} dilakukan dengan 3 tahapan, yaitu perancangan algoritma penelitian, perancangan kode komputasi dan simulasi data. Perancangan algoritma penelitian akan membuat cara kerja aplikasi yang akan dibuat dimulai dari \textit{Start} hingga komputasi berakhir. Dalam perancangan kode komputasi akan dibuat kode berbahasa \textit{Python} yang akan dieksekusi oleh \textit{Python Compiler} dan PySpark. Tahap terakhir adalah kalkulasi data data. Simulasi data akan mensimulasikan kode yang sudah dibuat menggnakan perangkat komputer dengan spesifikasi yang ditentukan. Dari hasil kalkulasi data ini akan dilihat hasil grafik celah energi dan spektrum absorbansi lalu performa komputasi yang dijelaskan dengan kecepatan komputasi yang dihasilkan dari variasi yang diterapkan.
 
 	\section{Perancangan Algoritma Penelitian}
 	
@@ -854,11 +854,13 @@ Terlihat bahwa jika jumlah atom karbon diperbanyak, perbedaan energi tiap orbita
 		676 & 0,0214 \\ \hline
 		900 & 0,0163 \\ \hline
 		... & ... \\ \hline
+		8100 & 0.0019 \\ \hline
+		8836 & 0,0017 \\ \hline
 		9604 & 0,0016 \\ \hline
 	\end{tabular}
 \end{table}
 \begin{center}
-	\includegraphics[width=10cm]{gambar/bandgap.png}
+	\includegraphics[width=12cm]{gambar/bandgap.png}
 	\captionof{figure}{Grafik Celah Energi terhadap Banyaknya Atom}
 	\label{bandgap}
 \end{center}
@@ -891,12 +893,12 @@ Karena ukuran matriks yang sangat besar, maka dilakukanlah beberapa teknik untuk
 	\end{tabular}}
 \end{table}
 \begin{center}
-	\includegraphics[width=11cm]{gambar/performa_komputasi.png}
+	\includegraphics[width=12cm]{gambar/performa_komputasi.png}
 	\captionof{figure}{Grafik Performa Komputasi}
 	\label{performa_komputasi}
 \end{center}
 
-Dari Gambar \ref{performa_komputasi} terlihat bahwa menggunakan PySpark memiliki keunggulan dalam waktu komputasi. Waktu yang dibutuhkan untuk menghitung matriks berukuran $36*36$ hingga $4900*4900$ hanya sebesar $569,08$ detik untuk Server Google Cloud dan $844,72$ detik untuk Server KST. Pada urutan kedua tercepat yaitu menggunakan multiprocessing. Untuk multiprocessing dan PySpark memiliki cara kerja yang sama, yaitu menggunakan paralelisasi \textit{core} yang dimiliki oleh prosessor. Namun, untuk PySpark menggunakan paralelisasi kedalam jumlah pekerja (\textit{worker}) yang akan mengerjakan suatu tugas (\textit{task}) dengan \textit{In-Memory Processing}, yaitu proses yang akan dilakukan melibatkan \textit{memory}. Untuk \textit{load} dari server dapat dilihat di Lampiran () dan Lampiran (). Kemudian jika dibandingkan antara penggunaan Server Google Cloud dengan Server KST, terdapat keunggulan untuk pemrosesan Python dan Threading untuk Server KST dan keunggulan untuk pemrosesan PySpark dan Multiprocessing untuk Server Google Cloud.
+Dari Gambar \ref{performa_komputasi} terlihat bahwa menggunakan PySpark memiliki keunggulan dalam waktu komputasi. Waktu yang dibutuhkan untuk menghitung matriks berukuran $36*36$ hingga $4900*4900$ hanya sebesar $569,08$ detik untuk Server Google Cloud dan $844,72$ detik untuk Server KST. Pada urutan kedua tercepat yaitu menggunakan multiprocessing. Untuk multiprocessing dan PySpark memiliki cara kerja yang sama, yaitu menggunakan paralelisasi \textit{core} yang dimiliki oleh prosessor. Namun, untuk PySpark menggunakan paralelisasi kedalam jumlah pekerja (\textit{worker}) yang akan mengerjakan suatu tugas (\textit{task}) dengan \textit{In-Memory Processing}, yaitu proses yang akan dilakukan melibatkan \textit{memory}. Untuk \textit{load} dari server dapat dilihat di Lampiran 6 dan Lampiran 7. Kemudian jika dibandingkan antara penggunaan Server Google Cloud dengan Server KST, terdapat keunggulan untuk pemrosesan Python dan Threading untuk Server KST dan keunggulan untuk pemrosesan PySpark dan Multiprocessing untuk Server Google Cloud.
 
 \subsection{Hasil Kalkulasi Absorbansi terhadap Perubahan Energi Eksitasi}
 
