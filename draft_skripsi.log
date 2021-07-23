@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.3)  18 JUL 2021 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.3)  23 JUL 2021 05:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1095,7 +1095,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
-<gambar/unpadbw.png, id=179, 151.2852pt x 149.358pt>
+<gambar/unpadbw.png, id=217, 151.2852pt x 149.358pt>
 File: gambar/unpadbw.png Graphic file (type png)
 <use gambar/unpadbw.png>
 Package pdftex.def Info: gambar/unpadbw.png  used on input line 148.
@@ -1196,13 +1196,68 @@ Overfull \hbox (27.47893pt too wide) detected at line 16
 \OT1/ptm/m/n/12 Gambar 3.3 
  []
 
+
+Overfull \hbox (27.47893pt too wide) detected at line 17
+\OT1/ptm/m/n/12 Gambar 4.1 
+ []
+
+
+Overfull \hbox (27.47893pt too wide) detected at line 18
+\OT1/ptm/m/n/12 Gambar 4.2 
+ []
+
+
+Overfull \hbox (27.47893pt too wide) detected at line 19
+\OT1/ptm/m/n/12 Gambar 4.3 
+ []
+
+
+Overfull \hbox (27.47893pt too wide) detected at line 20
+\OT1/ptm/m/n/12 Gambar 4.4 
+ []
+
+
+Overfull \hbox (27.47893pt too wide) detected at line 21
+\OT1/ptm/m/n/12 Gambar 4.5 
+ []
+
+[10
+
+]
+Overfull \hbox (27.47893pt too wide) detected at line 22
+\OT1/ptm/m/n/12 Gambar 4.6 
+ []
+
+
+Overfull \hbox (27.47893pt too wide) detected at line 23
+\OT1/ptm/m/n/12 Gambar 4.7 
+ []
+
+
+Overfull \hbox (27.47893pt too wide) detected at line 24
+\OT1/ptm/m/n/12 Gambar 4.8 
+ []
+
+
+Overfull \hbox (27.47893pt too wide) detected at line 25
+\OT1/ptm/m/n/12 Gambar 4.9 
+ []
+
+
+Overfull \hbox (33.47893pt too wide) detected at line 26
+\OT1/ptm/m/n/12 Gambar 4.10 
+ []
+
+
+Overfull \hbox (33.47893pt too wide) detected at line 27
+\OT1/ptm/m/n/12 Gambar 4.11 
+ []
+
 )
 \tf@lof=\write6
 \openout6 = `draft_skripsi.lof'.
 
- [10
-
-] (./draft_skripsi.lot
+ [11] (./draft_skripsi.lot
 Overfull \hbox (31.89394pt too wide) detected at line 2
 \OT1/ptm/m/n/12 Tabel 2.1 
  []
@@ -1212,123 +1267,148 @@ Overfull \hbox (31.89394pt too wide) detected at line 3
 \OT1/ptm/m/n/12 Tabel 2.2 
  []
 
+
+Overfull \hbox (31.89394pt too wide) detected at line 4
+\OT1/ptm/m/n/12 Tabel 4.3 
+ []
+
+
+Overfull \hbox (31.89394pt too wide) detected at line 5
+\OT1/ptm/m/n/12 Tabel 4.4 
+ []
+
+
+Overfull \hbox (31.89394pt too wide) detected at line 6
+\OT1/ptm/m/n/12 Tabel 4.5 
+ []
+
+
+Overfull \hbox (31.89394pt too wide) detected at line 7
+\OT1/ptm/m/n/12 Tabel 4.6 
+ []
+
+
+Overfull \hbox (31.89394pt too wide) detected at line 8
+\OT1/ptm/m/n/12 Tabel 4.7 
+ []
+
 )
 \tf@lot=\write7
 \openout7 = `draft_skripsi.lot'.
 
- [11
+ [12
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.288 	
+l.282 	
         [1
 
 ] [2] [3] [4] [5]
-<gambar/metana.png, id=421, 1204.5pt x 903.375pt>
+<gambar/metana.png, id=507, 1204.5pt x 903.375pt>
 File: gambar/metana.png Graphic file (type png)
 <use gambar/metana.png>
-Package pdftex.def Info: gambar/metana.png  used on input line 344.
+Package pdftex.def Info: gambar/metana.png  used on input line 338.
 (pdftex.def)             Requested size: 248.96161pt x 186.72313pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 345.
+(caption)                particular \caption on input line 339.
 See the caption package documentation for explanation.
 
 [6
 
  <./gambar/metana.png>]
-<gambar/grafit.png, id=434, 1003.75pt x 459.7175pt>
+<gambar/grafit.png, id=521, 1003.75pt x 459.7175pt>
 File: gambar/grafit.png Graphic file (type png)
 <use gambar/grafit.png>
-Package pdftex.def Info: gambar/grafit.png  used on input line 354.
+Package pdftex.def Info: gambar/grafit.png  used on input line 348.
 (pdftex.def)             Requested size: 248.96161pt x 114.02419pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 355.
+(caption)                particular \caption on input line 349.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
-58.
+52.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [7 <./gambar/grafit.png>]
-<gambar/grafen.png, id=448, 282.05376pt x 179.67125pt>
+<gambar/grafen.png, id=534, 282.05376pt x 179.67125pt>
 File: gambar/grafen.png Graphic file (type png)
 <use gambar/grafen.png>
-Package pdftex.def Info: gambar/grafen.png  used on input line 361.
+Package pdftex.def Info: gambar/grafen.png  used on input line 355.
 (pdftex.def)             Requested size: 248.96161pt x 158.59367pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 362.
+(caption)                particular \caption on input line 356.
 See the caption package documentation for explanation.
 
-<gambar/oksgraf.png, id=452, 500.87125pt x 425.59pt>
+<gambar/oksgraf.png, id=538, 500.87125pt x 425.59pt>
 File: gambar/oksgraf.png Graphic file (type png)
 <use gambar/oksgraf.png>
-Package pdftex.def Info: gambar/oksgraf.png  used on input line 368.
+Package pdftex.def Info: gambar/oksgraf.png  used on input line 362.
 (pdftex.def)             Requested size: 248.96161pt x 211.54112pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 369.
+(caption)                particular \caption on input line 363.
 See the caption package documentation for explanation.
 
 [8 <./gambar/grafen.png>] [9 <./gambar/oksgraf.png>]
-<gambar/etilen.jpeg, id=472, 376.40625pt x 134.5025pt>
+<gambar/etilen.jpeg, id=557, 376.40625pt x 134.5025pt>
 File: gambar/etilen.jpeg Graphic file (type jpg)
 <use gambar/etilen.jpeg>
-Package pdftex.def Info: gambar/etilen.jpeg  used on input line 377.
+Package pdftex.def Info: gambar/etilen.jpeg  used on input line 371.
 (pdftex.def)             Requested size: 312.9803pt x 111.84636pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 378.
+(caption)                particular \caption on input line 372.
 See the caption package documentation for explanation.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 372.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 372.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 372.
 [10 <./gambar/etilen.jpeg>] [11] [12] [13]
-<gambar/homolumo.png, id=521, 465.74pt x 353.32pt>
+<gambar/homolumo.png, id=606, 465.74pt x 353.32pt>
 File: gambar/homolumo.png Graphic file (type png)
 <use gambar/homolumo.png>
-Package pdftex.def Info: gambar/homolumo.png  used on input line 455.
+Package pdftex.def Info: gambar/homolumo.png  used on input line 449.
 (pdftex.def)             Requested size: 258.92024pt x 196.42917pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 456.
+(caption)                particular \caption on input line 450.
 See the caption package documentation for explanation.
 
 [14 <./gambar/homolumo.png>] [15]
-<gambar/blockmat.png, id=543, 274.02374pt x 184.69pt>
+<gambar/blockmat.png, id=629, 274.02374pt x 184.69pt>
 File: gambar/blockmat.png Graphic file (type png)
 <use gambar/blockmat.png>
-Package pdftex.def Info: gambar/blockmat.png  used on input line 482.
+Package pdftex.def Info: gambar/blockmat.png  used on input line 476.
 (pdftex.def)             Requested size: 258.92024pt x 174.52449pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 483.
+(caption)                particular \caption on input line 477.
 See the caption package documentation for explanation.
 
 [16] [17 <./gambar/blockmat.png>]
-<gambar/bigdat.png, id=564, 563.10374pt x 575.14874pt>
+<gambar/bigdat.png, id=651, 563.10374pt x 575.14874pt>
 File: gambar/bigdat.png Graphic file (type png)
 <use gambar/bigdat.png>
-Package pdftex.def Info: gambar/bigdat.png  used on input line 543.
+Package pdftex.def Info: gambar/bigdat.png  used on input line 538.
 (pdftex.def)             Requested size: 199.16928pt x 203.42888pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 544.
+(caption)                particular \caption on input line 539.
 See the caption package documentation for explanation.
 
 [18]
@@ -1336,119 +1416,257 @@ See the caption package documentation for explanation.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./gambar/bigdat.png>]
-<gambar/perform.png, id=588, 1204.5pt x 687.56876pt>
+<gambar/perform.png, id=675, 1204.5pt x 687.56876pt>
 File: gambar/perform.png Graphic file (type png)
 <use gambar/perform.png>
-Package pdftex.def Info: gambar/perform.png  used on input line 566.
+Package pdftex.def Info: gambar/perform.png  used on input line 561.
 (pdftex.def)             Requested size: 256.0748pt x 146.17725pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 567.
+(caption)                particular \caption on input line 562.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (25.19998pt too wide) in paragraph at lines 574--587
+Overfull \hbox (25.19998pt too wide) in paragraph at lines 569--582
  [][] 
  []
 
 [20 <./gambar/perform.png (PNG copy)>]
-<gambar/spark.png, id=599, 312.16624pt x 162.6075pt>
+<gambar/spark.png, id=685, 312.16624pt x 162.6075pt>
 File: gambar/spark.png Graphic file (type png)
 <use gambar/spark.png>
-Package pdftex.def Info: gambar/spark.png  used on input line 593.
+Package pdftex.def Info: gambar/spark.png  used on input line 588.
 (pdftex.def)             Requested size: 213.39566pt x 111.15967pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 594.
+(caption)                particular \caption on input line 589.
 See the caption package documentation for explanation.
 
 [21 <./gambar/spark.png>]
-<gambar/rdd.png, id=609, 496.85625pt x 293.59688pt>
+<gambar/rdd.png, id=695, 496.85625pt x 293.59688pt>
 File: gambar/rdd.png Graphic file (type png)
 <use gambar/rdd.png>
-Package pdftex.def Info: gambar/rdd.png  used on input line 599.
+Package pdftex.def Info: gambar/rdd.png  used on input line 594.
 (pdftex.def)             Requested size: 213.39566pt x 126.09634pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 600.
+(caption)                particular \caption on input line 595.
 See the caption package documentation for explanation.
 
 [22 <./gambar/rdd.png>]
-<gambar/sparkcontext.png, id=625, 451.6875pt x 472.01344pt>
+<gambar/sparkcontext.png, id=712, 451.6875pt x 472.01344pt>
 File: gambar/sparkcontext.png Graphic file (type png)
 <use gambar/sparkcontext.png>
-Package pdftex.def Info: gambar/sparkcontext.png  used on input line 619.
+Package pdftex.def Info: gambar/sparkcontext.png  used on input line 615.
 (pdftex.def)             Requested size: 170.71652pt x 178.40186pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 620.
+(caption)                particular \caption on input line 616.
 See the caption package documentation for explanation.
 
 [23 <./gambar/sparkcontext.png>] [24]
-<gambar/diagram.png, id=639, 793.96625pt x 352.31625pt>
+<gambar/diagram.png, id=728, 793.96625pt x 352.31625pt>
 File: gambar/diagram.png Graphic file (type png)
 <use gambar/diagram.png>
-Package pdftex.def Info: gambar/diagram.png  used on input line 639.
+Package pdftex.def Info: gambar/diagram.png  used on input line 635.
 (pdftex.def)             Requested size: 369.88582pt x 164.13716pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 640.
+(caption)                particular \caption on input line 636.
 See the caption package documentation for explanation.
 
 [25
 
 ] [26 <./gambar/diagram.png>] [27] [28]
-<gambar/struk.png, id=677, 361.35pt x 195.73125pt>
+<gambar/struk.png, id=767, 361.35pt x 195.73125pt>
 File: gambar/struk.png Graphic file (type png)
 <use gambar/struk.png>
-Package pdftex.def Info: gambar/struk.png  used on input line 721.
+Package pdftex.def Info: gambar/struk.png  used on input line 718.
 (pdftex.def)             Requested size: 199.16928pt x 107.88248pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 722.
+(caption)                particular \caption on input line 719.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (24.25838pt too wide) detected at line 738
+Overfull \hbox (24.25838pt too wide) detected at line 736
 [][] []
  []
 
 [29 <./gambar/struk.png>] [30]
-<gambar/skem.png, id=694, 598.235pt x 287.0725pt>
+<gambar/skem.png, id=785, 598.235pt x 287.0725pt>
 File: gambar/skem.png Graphic file (type png)
 <use gambar/skem.png>
-Package pdftex.def Info: gambar/skem.png  used on input line 754.
+Package pdftex.def Info: gambar/skem.png  used on input line 752.
 (pdftex.def)             Requested size: 284.52756pt x 136.53606pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 755.
+(caption)                particular \caption on input line 753.
 See the caption package documentation for explanation.
 
-[31 <./gambar/skem.png>] [32] [33
+[31 <./gambar/skem.png>] [32]
+<gambar/benzene.png, id=801, 223.0734pt x 237.0456pt>
+File: gambar/benzene.png Graphic file (type png)
+<use gambar/benzene.png>
+Package pdftex.def Info: gambar/benzene.png  used on input line 790.
+(pdftex.def)             Requested size: 142.26378pt x 151.18056pt.
 
-] [34
 
-] [35
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 791.
+See the caption package documentation for explanation.
 
-] [36] [37] [38] [39] [40]
+[33
+
+ <./gambar/benzene.png>]
+<gambar/benzene-hamiltonian.png, id=807, 460.72125pt x 104.39pt>
+File: gambar/benzene-hamiltonian.png Graphic file (type png)
+<use gambar/benzene-hamiltonian.png>
+Package pdftex.def Info: gambar/benzene-hamiltonian.png  used on input line 796
+.
+(pdftex.def)             Requested size: 284.52756pt x 64.46785pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 797.
+See the caption package documentation for explanation.
+
+<gambar/C10.png, id=810, 298.716pt x 197.538pt>
+File: gambar/C10.png Graphic file (type png)
+<use gambar/C10.png>
+Package pdftex.def Info: gambar/C10.png  used on input line 805.
+(pdftex.def)             Requested size: 170.71652pt x 112.89622pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 806.
+See the caption package documentation for explanation.
+
+<gambar/c10_hamiltonian.png, id=811, 571.13374pt x 324.21124pt>
+File: gambar/c10_hamiltonian.png Graphic file (type png)
+<use gambar/c10_hamiltonian.png>
+Package pdftex.def Info: gambar/c10_hamiltonian.png  used on input line 811.
+(pdftex.def)             Requested size: 284.52756pt x 161.51651pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 812.
+See the caption package documentation for explanation.
+
+[34 <./gambar/benzene-hamiltonian.png> <./gambar/C10.png>]
+<gambar/benzene-energy.png, id=820, 359.3425pt x 99.37125pt>
+File: gambar/benzene-energy.png Graphic file (type png)
+<use gambar/benzene-energy.png>
+Package pdftex.def Info: gambar/benzene-energy.png  used on input line 824.
+(pdftex.def)             Requested size: 227.62204pt x 62.94688pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 825.
+See the caption package documentation for explanation.
+
+[35 <./gambar/c10_hamiltonian.png>]
+<gambar/c10_energy.png, id=826, 363.3575pt x 162.6075pt>
+File: gambar/c10_energy.png Graphic file (type png)
+<use gambar/c10_energy.png>
+Package pdftex.def Info: gambar/c10_energy.png  used on input line 835.
+(pdftex.def)             Requested size: 227.62204pt x 101.86514pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 836.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<gambar/bandgap.png, id=829, 752.8125pt x 451.6875pt>
+File: gambar/bandgap.png Graphic file (type png)
+<use gambar/bandgap.png>
+Package pdftex.def Info: gambar/bandgap.png  used on input line 861.
+(pdftex.def)             Requested size: 284.52756pt x 170.71947pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 862.
+See the caption package documentation for explanation.
+
+[36 <./gambar/benzene-energy.png> <./gambar/c10_energy.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<gambar/performa_komputasi.png, id=838, 1129.21875pt x 752.8125pt>
+File: gambar/performa_komputasi.png Graphic file (type png)
+<use gambar/performa_komputasi.png>
+Package pdftex.def Info: gambar/performa_komputasi.png  used on input line 894.
+
+(pdftex.def)             Requested size: 312.9803pt x 208.64948pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 895.
+See the caption package documentation for explanation.
+
+[37 <./gambar/bandgap.png>] [38 <./gambar/performa_komputasi.png>] [39]
+[40]
+<gambar/spectra-benzene.png, id=865, 752.8125pt x 451.6875pt>
+File: gambar/spectra-benzene.png Graphic file (type png)
+<use gambar/spectra-benzene.png>
+Package pdftex.def Info: gambar/spectra-benzene.png  used on input line 959.
+(pdftex.def)             Requested size: 284.52756pt x 170.71947pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 960.
+See the caption package documentation for explanation.
+
+<gambar/spectra-graphene50.png, id=869, 752.8125pt x 451.6875pt>
+File: gambar/spectra-graphene50.png Graphic file (type png)
+<use gambar/spectra-graphene50.png>
+Package pdftex.def Info: gambar/spectra-graphene50.png  used on input line 968.
+
+(pdftex.def)             Requested size: 284.52756pt x 170.71947pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 969.
+See the caption package documentation for explanation.
+
+[41 <./gambar/spectra-benzene.png>]
+<gambar/spectra-graphene400.png, id=875, 752.8125pt x 451.6875pt>
+File: gambar/spectra-graphene400.png Graphic file (type png)
+<use gambar/spectra-graphene400.png>
+Package pdftex.def Info: gambar/spectra-graphene400.png  used on input line 973
+.
+(pdftex.def)             Requested size: 284.52756pt x 170.71947pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 974.
+See the caption package documentation for explanation.
+
+[42 <./gambar/spectra-graphene50.png> <./gambar/spectra-graphene400.png>]
+[43
+
+] [44] [45
+
+] [46] [47] [48] [49] [50]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 815.
+(hyperref)                be the same. Added a new anchor on input line 1004.
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 816.
+nput line 1005.
 
-(./koding/huckel.py [41
+(./koding/huckel.py [51
 
 ]
 LaTeX Font Info:    Trying to load font information for OML+ptm on input line 2
@@ -1459,28 +1677,60 @@ File: omlptm.fd
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
- [42] [43] [44]
-[45] [46] [47])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 819.
- [48]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 819.
+ [52] [53] [54]
+[55] [56] [57] [58] [59]) (./koding/main.py) [60] (./koding/main_spark.py
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 23.
+
+[61]) (./koding/main_mp_pool.py) [62] (./koding/main_thread.py)
+<gambar/mp_pool.png, id=1289, 1371.1225pt x 770.88pt>
+File: gambar/mp_pool.png Graphic file (type png)
+<use gambar/mp_pool.png>
+Package pdftex.def Info: gambar/mp_pool.png  used on input line 1026.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
+ [63]
+<gambar/spark-submit.png, id=1314, 1371.1225pt x 770.88pt>
+File: gambar/spark-submit.png Graphic file (type png)
+<use gambar/spark-submit.png>
+Package pdftex.def Info: gambar/spark-submit.png  used on input line 1032.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
+<gambar/gcp.png, id=1315, 861.9703pt x 180.675pt>
+File: gambar/gcp.png Graphic file (type png)
+<use gambar/gcp.png>
+Package pdftex.def Info: gambar/gcp.png  used on input line 1038.
+(pdftex.def)             Requested size: 369.88582pt x 77.53159pt.
+<gambar/kst.png, id=1316, 668.4975pt x 188.20313pt>
+File: gambar/kst.png Graphic file (type png)
+<use gambar/kst.png>
+Package pdftex.def Info: gambar/kst.png  used on input line 1044.
+(pdftex.def)             Requested size: 312.9803pt x 88.11661pt.
+ [64 <./gambar/mp_pool.png> <./gambar/spark-submit.png> <./gambar/gcp.png>]
+<gambar/neofetch-gcp.png, id=1324, 1371.1225pt x 770.88pt>
+File: gambar/neofetch-gcp.png Graphic file (type png)
+<use gambar/neofetch-gcp.png>
+Package pdftex.def Info: gambar/neofetch-gcp.png  used on input line 1050.
+(pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1053.
+ [65 <./gambar/kst.png> <./gambar/neofetch-gcp.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1053.
  (./draft_skripsi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 819.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 819.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1053.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1053.
+
 Package rerunfilecheck Info: File `draft_skripsi.out' has not changed.
-(rerunfilecheck)             Checksum: 5F20A71A18660D95918AC15CDCAFA7E3;2962.
+(rerunfilecheck)             Checksum: 84CAF89FBFF0B320238F381A339E95BD;3814.
 Package logreq Info: Writing requests to 'draft_skripsi.run.xml'.
 \openout1 = `draft_skripsi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22787 strings out of 481239
- 410543 string characters out of 5920377
- 1098148 words of memory out of 5000000
- 37271 multiletter control sequences out of 15000+600000
+ 23151 strings out of 481239
+ 416466 string characters out of 5920377
+ 1104397 words of memory out of 5000000
+ 37433 multiletter control sequences out of 15000+600000
  585154 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,15n,54p,1406b,2528s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,15n,54p,1732b,2530s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-
@@ -1493,10 +1743,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on draft_skripsi.pdf (60 pages, 868777 bytes).
+Output written on draft_skripsi.pdf (78 pages, 1701838 bytes).
 PDF statistics:
- 1119 PDF objects out of 1200 (max. 8388607)
- 991 compressed objects within 10 object streams
- 397 named destinations out of 1000 (max. 500000)
- 433 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1495 PDF objects out of 1728 (max. 8388607)
+ 1313 compressed objects within 14 object streams
+ 571 named destinations out of 1000 (max. 500000)
+ 585 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -35,14 +35,18 @@ def huckel(Lx, Ly):
                             H[atom_i][atom_j]=0    
                         else : 
                             H[atom_i][atom_j] = beta
+                        # if abs(atom_i-atom_j)==Lx and atom_i%2==1: 
+                            # H[atom_i][atom_j]=0
+                        # else: 
+                            # H[atom_i][atom_j] = -1.58
                     else: 
                         H[atom_i][atom_j] = 0
 
         """
         Calculating eigen energy with Schur Decomposition
         """
-        eigval_schur, Z = la.schur(H)
-        eigval_schur = sorted(np.diag(eigval_schur))
+        # eigval_schur, Z = la.schur(H)
+        # eigval_schur = sorted(np.diag(eigval_schur))
 
         """
         Calculating eigen energy and eigen number
@@ -97,7 +101,7 @@ def huckel(Lx, Ly):
 
     return H, eigval, eignum, Egap, dE, Ms, x, y_list
 
-def huckel_2(L): #only for calculating bandgap using mp and spark
+def huckel_2(L):
     """
     Build hamiltonian matrix
     """
@@ -131,6 +135,10 @@ def huckel_2(L): #only for calculating bandgap using mp and spark
                             H[atom_i][atom_j]=0    
                         else : 
                             H[atom_i][atom_j] = beta
+                        # if abs(atom_i-atom_j)==L and atom_i%2==1: 
+                            # H[atom_i][atom_j]=0
+                        # else: 
+                            # H[atom_i][atom_j] = -1.58
                     else: 
                         H[atom_i][atom_j] = 0
                         
@@ -146,5 +154,39 @@ def huckel_2(L): #only for calculating bandgap using mp and spark
         indexHomo = int(len(eigval)/2-1)
         indexLumo = int(len(eigval)/2)
         Egap = eigval[indexLumo] - eigval[indexHomo]
+
+        """
+        Calculating deltaE
+        """
+        dE = []
+        for indexEnergyLumo in range(0, indexLumo):
+            for indexEnergyHomo in range (0,indexHomo+1):
+                dE.append(eigval[indexEnergyLumo + indexLumo] - eigval[indexHomo - indexEnergyHomo])
+
+        """
+        Calculating dipole moment
+        """
+        energyNumber = int(len(eignum))
+        M = []
+        for indexEnergyLumo in range(0, indexLumo):
+            for indexEnergyHomo in range (0, indexHomo+1):
+                mtot = 0
+                for indexC in range(0, energyNumber):
+                    mtot += eignum[indexC][indexEnergyLumo + indexLumo] * eignum[indexC][indexHomo - indexEnergyHomo]
+                M.append(mtot)
+        Ms = sorted(M, reverse=True)
+
+        """
+        Calculating Absorbance Spectra
+        """
+        l = []
+        A = []
+        for i in range(len(Ms)):
+            for m in range(1,1000):
+                el = 0.1 + m*0.0012
+                l.append(el)
+                a = 0
+                a+=abs(Ms[i]**2/(dE[i]-(1.2/el-0.1*i)))
+                A.append(a)
         
-    return H, eigval, eignum, Egap
+    return H, eigval, eignum, Egap, dE, Ms, l, A

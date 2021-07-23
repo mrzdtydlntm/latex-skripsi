@@ -204,7 +204,7 @@ NIP. 19740526 200312 1 002 \\
 \chapter*{\centering KATA PENGANTAR}
 \thispagestyle{myplain}
  \hspace{5mm} 
- Dengan nama Allah yang Maha Pengasih dan Maha Penyayang. Alhamdulillaahirabbil'aalamiin, segala puji hanya milik Allah 'azza wa jalla karena berkat-Nya lah skripsi yang berjudul "Kalkulasi nilai eigen berbasis matriks Hamiltonian menggunakan Teknik \textit{Block Matrix} : studi kasus pada \textit{Graphene Oxide}" sebagai salah satu syarat menyelesaikan pendidikan tingkat sarjana pada Program Studi Fisika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Padjadjaran dapat selesai. Tak lupa terimakasih kepada Drs. Enung Achmad S., M.Pd., dan Lilis Susilayati, S.H., yaitu orang tua penulis yang selalu memberi dukungan kepada penulis sehingga penulis dapat menyelesaikan dengan sebaik mungkin. Penulis juga mengucapkan terimakasih kepada pihak-pihak yang membantu penulis untuk menyelesaikan tugas akhir ini:
+ Dengan nama Allah yang Maha Pengasih dan Maha Penyayang. Alhamdulillaahirabbil'aalamiin, segala puji hanya milik Allah 'azza wa jalla karena berkat-Nya skripsi yang berjudul "Kalkulasi nilai eigen berbasis matriks Hamiltonian menggunakan Teknik \textit{Block Matrix} : studi kasus pada \textit{Graphene}" sebagai salah satu syarat menyelesaikan pendidikan tingkat sarjana pada Program Studi Fisika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Padjadjaran dapat selesai. Tak lupa terimakasih kepada Drs. Enung Achmad S., M.Pd., dan Lilis Susilayati, S.H., yaitu orang tua penulis yang selalu memberi dukungan kepada penulis sehingga penulis dapat menyelesaikan dengan sebaik mungkin. Penulis juga mengucapkan terimakasih kepada pihak-pihak yang membantu penulis untuk menyelesaikan tugas akhir ini:
 \begin{enumerate}
 	\item Dekan Fakultas Matematika dan Ilmu Pengetahuan Alam Universitas Padjadjaran, Prof. Dr. Iman Rahayu, M.Sc.
 	\item Kepala Departemen Fisika FMIPA Unpad, Prof. Dr. Camellia Panatarani
@@ -213,22 +213,17 @@ NIP. 19740526 200312 1 002 \\
 	\item Prof. Dr. Eng Camellia Panatarani, M.Si., yang selalu memberikan ilmu, dukungan dan fasilitas terbaik kepada penulis selama menyelesaikan skripsi
 	\item Ferry Faizal, Ph.D., selaku pembimbing pendamping yang selalu memberikan bimbingan, saran dan masukan, bantuan, dukungan, fasilitas dan arahan terbaiknya kepada penulis
 	\item Dr. Wildan Abdussalam, yang selalu memberikan bimbingan, motivasi, bantuan, dan arahan yang membuat penulis selalu bersemangat saat menyelesaikan skripsi
+	\item Pa Setianto, Pa Ocik, Kang Dwindra, dan seluruh civitas FiNder-U CoE yang membantu penulis menyelesaikan skripsi
 	\item Nurfauzi Fadillah yang telah memberikan bantuan, dukungan, fasilitas dan motivasi kepada penulis
 	\item P-Labs sebagai tempat penulis untuk membuat, merevisi dan menyelesaikan skripsi dengan menyenangkan
 	\item Ferdian, Syakir, Yoga, Felix, Hilmy, Ahmad, Victor, Naufal, Ghemma, Fahmi, Bayu, Reyhan, Budi, dan Urfan yang telah memberikan kebahagiaan, dukungan dan bantuan kepada penulis selama menyelesaikan skripsi
-	\item Seluruh civitas FiNder-U CoE yang membantu penulis menyelesaikan skripsi
+	\item Revani dan Fahriza yang telah memberikan dukungan dan bantuan saat mengadakan pemaparan kemajuan mingguan agar skripsi ini dapat selesai dengan baik
 	\item Lutfi Naufal Ramadhika dan Lucia Patia Rochman yang telah memberikan dukungan moril kepada penulis saat menyelesaikan skripsi
-	\item Atom 2017 yang telah mewarnai masa kuliah bersama-sama
-	\item Syahnaz, Elsha, Rika, Alya, Ahlam, Sabrina, Annisa yang membuat penulis selalu ceria
+	\item Atom 2017 yang telah mewarnai masa kuliah penulis
 	\item Tim KBK Instrumentasi dan Elektronika yang selalu membuat penulis bersemangat untuk mengerjakan skripsi
 \end{enumerate}
 
-Penulis menyadari masih banyak kekurangan dalam penyusunan skripsi ini, karena itu penulis sangat membutuhkan kritik dan saran. Semoga skripsi ini dapat berguna dan bermanfaat bagi perkembangan ilmu pengetahuan dan teknologi di dunia khususnya di Indonesia.
-Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih
-memiliki banyak kekurangan dan jauh dari kesempurnaan. Oleh karena itu,
-kritik dan saran yang membangun sangat dibutuhkan oleh penulis. Semoga
-skripsi ini dapat bermanfaat bagi perkembangan ilmu dan teknologi serta bagi
-pihak-pihak yang membutuhkan.
+Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memiliki banyak kekurangan dan jauh dari kesempurnaan. Oleh karena itu, kritik dan saran yang membangun sangat dibutuhkan oleh penulis. Semoga skripsi ini dapat bermanfaat bagi perkembangan ilmu dan teknologi serta bagi pihak-pihak yang membutuhkan.
 \vspace{2cm}
 \begin{flushright}
 	Jatinangor, Juli 2021\\
@@ -241,17 +236,16 @@ pihak-pihak yang membutuhkan.
 \chapter*{\centering ABSTRAK}
 \thispagestyle{myplain}
 \begin{spacing}{1.0}
-\noindent Revolusi Industri 4.0 adalah era digitalisasi, terkoneksinya hampir semua aspek pada keseharian yang biasa disebut dengan \textit{Internet of Things} (IoT), karena banyaknya data yang terintegrasi dan tersebat di internet, volume data menjadi besar karena itu disebut dengan \textit{Big Data}. \textit{Big data} merupakan kumpulan data dalam skala besar, yang mempunyai karakteristik data yang variatif, sangat cepat pertumbuhannya dan kompleksitas data yang tinggi. Data yang kompleks merupakan data yang tidak terstruktur yang perlu diolah khusus dengan suatu infrastruktur yang dapat mengelola data dalam volume
-besar. Dalam kasus ini, dengan menggabungkan aspek IoT dan \textit{Big Data}, dilakukan perancangan sistem terintegrasi untuk memonitor dan juga kontrol untuk perangkat IoT berbasis pemrosesan \textit{Big Data} menggunakan aplikasi \textit{Apache Spark} dan \textit{Hadoop} untuk kebutuhan analisis penggunaan daya listirk pada suatu sistem (perumahan, industri, dan lainnya). Sistem yang dirancangan merupakan sistem yang \textit{scalable} yang artinya sistem ini bisa beradaptasi jika dikemudian hari dilakukan penambahan fitur atau komponen IoT lain. Hasil dari penelitian ini berupa sistem terintegrasi (perangkat lunak dan perangkat keras) berbasis aplikasi web dan \textit{mobile}, dari sistem yang sudah dirancang, telah mampu merespon dengan masukan data hingga visualisasi data dengan kecepatan masukan hingga 0.01 detik.\\
-\textbf{Kata kunci: \textit{MapReduce, IoT, Sistem Kontrol, Monitoring, Big Data, Hadoop, Apache Spark}}
+\noindent Senyawa kimia organik adalah salah satu senyawa kimia yg sering diteliti, salah satu cara untuk meneliti senyawa tersebut adalah dengan menggunakan pendekatan kuantum yg disebut Kimia Fisik. Graphene merupakan salah satu senyawa kimia organik yang dapat diamati karakteristiknya dengan menggunakan Teori Hückel, yang akan melihat interaksi antar ikatan-$\pi$ dalam senyawa tersebut. Penggunaan kalkulasi eigen dari persamaan Schrödinger tak bergantung waktu akan menghasilkan nilai energi orbital molekul dan nilai konstanta gelombang. Kedua nilai inilah yang akan digunakan untuk mencari nilai absorbsi. Ketika menggunakan matriks Hamiltonian yang ukurannya besar, maka akan menyebabkan adanya \textit{bottleneck} dalam memproses data. Agar performa komputasinya tidak menurun, digunakan perhitungan menggunakan teknik \textit{Block Matrix} dan teknik \textit{Big Data}. Hasil penelitian menunjukkan bahwa, semakin banyak atom karbon yang dimiliki Graphene akan membuat celah energi yang dihasilkan semakin kecil yang diakibatkan oleh menurunnya jarak antara energi orbital molekul. Selain itu dihasilkan juga performa komputasi tercepat untuk menghitung celah energi, yaitu dengan menggunakan PySpark. Nilai perubahan eksitasi energi dan momen dipol transisi yang didapatkan dari kalkulasi nilai eigen akan menggambarkan grafik absorpsi terhadap energi eksitasinya, dimana titik absorbsi tertinggi menggambarkan titik celah energinya.\\
+\textbf{Kata kunci: \textit{Graphene, Teori Hückel, Teori Pita, Energi Absorbsi, PySpark}}
 \end{spacing}
 \addcontentsline{toc}{chapter}{ABSTRAK}
 
 \chapter*{\centering \textit{ABSTRACT}}
 \thispagestyle{myplain}
 \begin{spacing}{1.0}
-\noindent The Industrial Revolution 4.0 is the era of digitalization, the connection of almost all aspects of everyday life that is commonly called the Internet of Things (IoT), because of the many integrated and most intense data on the internet, the volume of data becomes large because of that this called Big Data. Big data is a collection of data on a big scale, which has varied data characteristics, very fast growth and high data complexity. Complex data is unstructured data that needs to be processed specifically with infrastructure that can manage large volumes of data and on high velocity. In this case, by collaborating IoT and Big Data aspect, the goal for this research is to built an integrated system design for monitoring and control for IoT devices based on Big Data Processing that uses Apache Spark and Hadoop applications for the analysis of the use of electricity power on various system. The platform is designed to support a scalable-system that can be extend more feature or more measurement. The results of this research resulted an integrated systems (software and hardware) based on web and mobile applications. The system has successfully managed several parameters on high velocity data transfer (up to 100 data per second) to obtain information on electricity usage and anomaly from data produced by the sensors and visualization on nearly real-time.\\
-\textbf{Keywords: \textit{MapReduce, IoT, Control System, Monitoring, Big Data, Hadoop, Apache Spark}}
+\noindent \\
+\textbf{Keywords: \textit{Graphene, Hückel Theory, Band Theory, Absorbance Energy, PySpark}}
 \end{spacing}
 \addcontentsline{toc}{chapter}{ABSTRACT}
 
@@ -282,7 +276,7 @@ besar. Dalam kasus ini, dengan menggabungkan aspek IoT dan \textit{Big Data}, di
 \renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
 \renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}}
 	\section{Latar Belakang}
-	Kimia fisik adalah subdisiplin yang membahas tentang suatu kejadian physicochemical (fisiko-kimia) dengan menggunakan pendekatan secara atomik dan molekul dan benda terkondensasi dalam kacamata kefisikaan \cite{Slater1939}. Karena kimia fisik, maka akan sangat-sangat berkaitan dengan unsur yang ada di table periodik. Mulai dari unsur Hidrogen (H) dengan nomor atom 1, hingga unsur Oganeson (Og) dengan nomor atom 118. Salah satu bidang tentang kimia yaitu Kimia Organik. Kimia organik mempelajari tentang struktur, sifat, komposisi, reaksi, dan preparasi senyawa yang mengandung unsur karbon (C). Kimia organik tidak hanya mempelajari tentang hidrokarbon saja, namun ikatan antara karbon dengan senyawa lain seperti hidrogen, nitrogen, oksigen, sulfur, fosfor, silikon dan halogen \cite{ACS2020}. Salah satu senyawa kimia organik yang saat ini sedang diteliti yaitu graphene. Graphene merupakan salah satu senyawa kimia turunan dari grafit dengan penyusun unsurnya adalah karbon yang saling berikatan satu sama lain \cite{Zhen2017}. Graphene merupakan bentuk lembaran (sheet) dari grafit. Karena molekul atom C dari graphene terdelokasi, maka kita bisa menghitung nilai energi dari orbital molekul graphene ini. Caranya adalah dengan menggunakan Teori Orbital Molekul Hückel atau sering disebut sebagai Metode Hückel \cite{Ribeiro}.  
+	Kimia fisik adalah subdisiplin yang membahas tentang suatu kejadian physicochemical (fisiko-kimia) dengan menggunakan pendekatan secara atomik dan molekul dan benda terkondensasi dalam kacamata kefisikaan \cite{Slater1939}. Karena kimia fisik, maka akan sangat-sangat berkaitan dengan unsur yang ada di tabel periodik. Mulai dari unsur Hidrogen (H) dengan nomor atom 1, hingga unsur Oganeson (Og) dengan nomor atom 118. Salah satu bidang tentang kimia yaitu Kimia Organik. Kimia organik mempelajari tentang struktur, sifat, komposisi, reaksi, dan preparasi senyawa yang mengandung unsur karbon (C). Kimia organik tidak hanya mempelajari tentang hidrokarbon saja, namun ikatan antara karbon dengan senyawa lain seperti hidrogen, nitrogen, oksigen, sulfur, fosfor, silikon dan halogen \cite{ACS2020}. Salah satu senyawa kimia organik yang saat ini sedang diteliti yaitu graphene. Graphene merupakan salah satu senyawa kimia turunan dari grafit dengan penyusun unsurnya adalah karbon yang saling berikatan satu sama lain \cite{Zhen2017}. Graphene merupakan bentuk lembaran (sheet) dari grafit. Karena molekul atom C dari graphene terdelokasi, maka kita bisa menghitung nilai energi dari orbital molekul graphene ini. Caranya adalah dengan menggunakan Teori Orbital Molekul Hückel atau sering disebut sebagai Metode Hückel \cite{Ribeiro}.  
 	
 	Teori OMH ini memiliki karakteristik yaitu menggunakan operasi matriks untuk perhitungannnya. Jika matriks yang digunakan masih berukuran kecil, maka dapat dilakukan dengan menggunakan operasi determinan biasa. Namun karena studi kasus yang dilakukan menggunakan graphene dengan jumlah atom karbon yang sangat banyak, maka besar matriks hamiltoniannya akan membesar dan menyebabkan operasi matriks yang digunakan adalah operasi eigen. Untuk dapat melakukan perhitungan besar energi orbital molekul maka akan dilakukan secara komputasi. Namun, besarnya ukuran matriks memengaruhi kecepatan komputasi untuk mencari solusi nilai eigen dari matriks tersebut. Ini berlaku untuk beberapa platform komputasi yang sering kita gunakan seperti MATLAB, Python dan lainnya.  
 	
@@ -318,10 +312,10 @@ besar. Dalam kasus ini, dengan menggabungkan aspek IoT dan \textit{Big Data}, di
 
 	\section{Tujuan Penelitian}
 	\begin{enumerate}
+		\item Merancang algoritma untuk membangun matriks Hamiltonian dan kalkulasi spektrum absorbsi
 		\item Dapat mengetahui hubungan antara besar celah energi tiap banyaknya atom yang terlibat
 		\item Mengetahui spektrum pita energi yang dimiliki oleh Graphene
 		\item Membandingkan performa komputasi menggunakan PySpark, dan Python dengan \textit{module} \textit{multiprocessing} dan \textit{threading}
-		\item Membandingkan performa komputasi menggunakan Server Google Cloud dan Server KST
 	\end{enumerate}
 
 	\section{Manfaat Penelitian}
@@ -460,7 +454,7 @@ besar. Dalam kasus ini, dengan menggabungkan aspek IoT dan \textit{Big Data}, di
 	
 	\section{Spektrum Absorbansi}
 	
-	Pada gambar \ref{homolumo}, saat terdapat cahaya berenergi tertentu ditembakkan, maka orbital yang berada di daerah HOMO akan memiliki energi berlebih. Akibatnya, orbital tersebut akan tereksitasi ke keadaan dengan energi yang lebih tinggi. Karena orbital tersebut tidak stabil saat berada di keadaan energi yang bukan keadaan asalnya, orbital tersebut akan de-eksitasi kembali ke keadaan awalnya dengan meng-emisikan energi berlebih yang ia serap menjadi suatu gelombang emisi \cite{Bird2002}. Dari fenomena tersebut, kita bisa mengetahui celah pita yang dimiliki oleh senyawa tertentu dan bisa melihat energi yang di serap di tiap celah energinya dengan menggambarkan spektrum absorbansinya. Spektrum Absorbansi mengacu pada pengukuran penyerapan radiasi (melalui spektroskopi) sebagai fungsi energi atau panjang gelombang pada sebuah sampel. Untuk mencari absorbansi terhadap perubahan energi eksitasinya dapat menggunakan persamaan,
+	Pada Gambar \ref{homolumo}, saat terdapat cahaya berenergi tertentu ditembakkan, maka orbital yang berada di daerah HOMO akan memiliki energi berlebih. Akibatnya, orbital tersebut akan tereksitasi ke keadaan dengan energi yang lebih tinggi. Karena orbital tersebut tidak stabil saat berada di keadaan energi yang bukan keadaan asalnya, orbital tersebut akan de-eksitasi kembali ke keadaan awalnya dengan meng-emisikan energi berlebih yang ia serap menjadi suatu gelombang emisi \cite{Bird2002}. Dari fenomena tersebut, kita bisa mengetahui celah pita yang dimiliki oleh senyawa tertentu dan bisa melihat energi yang di serap di tiap celah energinya dengan menggambarkan spektrum absorbansinya. Spektrum Absorbansi mengacu pada pengukuran penyerapan radiasi (melalui spektroskopi) sebagai fungsi energi atau panjang gelombang pada sebuah sampel. Untuk mencari absorbansi terhadap perubahan energi eksitasinya dapat menggunakan persamaan,
 	
 	\begin{equation}
 	\label{absorbansi}
@@ -481,9 +475,10 @@ besar. Dalam kasus ini, dengan menggabungkan aspek IoT dan \textit{Big Data}, di
 	\begin{center}
 		\includegraphics[width=9.1cm]{gambar/blockmat.png}
 		\captionof{figure}{\textit{Perbandingan Local Matrix, Row Matrix dan Block Matrix} \cite{Pisciuneri2016}}
+		\label{blockmatrix}
 	\end{center}
 	
-	Terlihat dari gambar bahwa Block Matrix akan membagi matriks yang awalnya berukuran sangat besar (yaitu Local Matrix), menjadi beberapa sub matriks kecil. Misalkan kita memiliki matriks A dengan ukuran 4x4,
+	Terlihat dari Gambar \ref{blockmatrix} bahwa Block Matrix akan membagi matriks yang awalnya berukuran sangat besar (yaitu Local Matrix), menjadi beberapa sub matriks kecil. Misalkan kita memiliki matriks A dengan ukuran 4x4,
 	\begin{equation}
 	A = 
 	\begin{bmatrix}
@@ -598,6 +593,7 @@ besar. Dalam kasus ini, dengan menggabungkan aspek IoT dan \textit{Big Data}, di
 	\begin{center}
 		\includegraphics[width=7.5cm]{gambar/rdd.png}
 		\captionof{figure}{\textit{Contoh Kasus RDD pada Spark} \cite{Kumar2018}}
+		\label{rdd}
 	\end{center}
 	Dengan menggunakan RDD, kita bisa melakukan beberapa hal seperti:
 	\begin{enumerate}
@@ -614,7 +610,7 @@ besar. Dalam kasus ini, dengan menggabungkan aspek IoT dan \textit{Big Data}, di
 		Spark memiliki dukungan dan library yang sangat banyak, termasuk SQL, streaming data, machine learning, dan pemrosesan grafik. Salah satunya, spark dapat dioperasikan menggunakan library dari python yang disebut sebagai PySpark \cite{Databricks}.
 	\end{enumerate}
 	
-	Apache Spark sangatlah cepat dalam pemrosesan data dikarenakan dalam kerjanya menggunakan \textit{In-Memory Processing} yang berarti semua pekerjaan atau pemrosesan data yang dilakukan oleh Apache Spark akan di proses di dalam \textit{memory}\cite{Bekker2017}. Untuk menggunakan fungsionalitas dari Spark, diperlukan \textit{SparkContext} sebagai titik masuk aplikasinya. Untuk skema alur data nya dapat dilihat di Gambar 2.11\cite{Tutorialspoint}.
+	Apache Spark sangatlah cepat dalam pemrosesan data dikarenakan dalam kerjanya menggunakan \textit{In-Memory Processing} yang berarti semua pekerjaan atau pemrosesan data yang dilakukan oleh Apache Spark akan di proses di dalam \textit{memory}\cite{Bekker2017}. Untuk menggunakan fungsionalitas dari Spark, diperlukan \textit{SparkContext} sebagai titik masuk aplikasinya. Untuk skema alur data nya dapat dilihat di Gambar \ref{rdd} \cite{Tutorialspoint}.
 	\begin{center}
 		\includegraphics[width=6cm]{gambar/sparkcontext.png}
 		\captionof{figure}{\textit{Alur Kerja Data pada Apache Spark} \cite{Tutorialspoint}}
@@ -634,10 +630,11 @@ Penelitian Kalkulasi Nilai Eigen berbasis Matriks Hamiltonian menggunakan Teknik
 
 	\section{Perancangan Algoritma Penelitian}
 	
-	Langkah-langkah penelitian dapat dilihat pada diagram alir penelitian pada Gambar 3.1
+	Langkah-langkah penelitian dapat dilihat pada diagram alir penelitian pada Gambar \ref{diagram-alir} 
 	\begin{center}
 		\includegraphics[width=13cm]{gambar/diagram.png}
 		\captionof{figure}{Diagram Alir Penelitian}
+		\label{diagram-alir}
 	\end{center}
 	 
 	 Dalam penelitian ini, akan dilakukan dengan beberapa tahap, yaitu pendefinisian, pemecahan matriks utama menjadi sub matriks kecil, diagonalisasi matriks, dan subtitusi untuk dapat keluaran besar energi orbital molekul dari graphene dan laju konvergensi yang didapatkannya. Diawali dengan penginputan besar {$\alpha$} dan {$\beta$} dari Graphene lalu akan dibuat matriks Hamiltoniannya. Lalu, matriks Hamiltoniannya akan dioperasikan menggunakan dekomposisi Schur untuk dapat dikerjakan secara paralel. Keluaran nya berupa nilai eigen dan vektor eigen. Nilai eigen sebagai energi orbital, dan vektor eigen merupakan konstanta fungsi gelombangnya. Dari kedua keluaran ini, akan dicari besar absorpsi setiap perubahan energi eksitasinya lalu dibuatkan grafik.
@@ -671,7 +668,7 @@ Penelitian Kalkulasi Nilai Eigen berbasis Matriks Hamiltonian menggunakan Teknik
 	\section{Perancangan Kode Komputasi}
 	\subsection{Perancangan Matriks Hamiltonian}
 	
-	Pada perancangan kode komputasi ini akan membuat kode dalam bahasa \textit{Python} yang akan dikonversi menjadi kode yang dapat dieksekusi di \textit{PySpark}. Matriks Hamiltonian yang dimiliki oleh Graphene Oxide bersifat matriks dua dimensi. Lalu dalam penentuan ikatan nya akan dilakukan menggunakan penentuan posisi atom acak dua dimensi. Penentuan posisi {$\vec{A}$} yaitu dengan
+	Pada perancangan kode komputasi ini akan membuat kode dalam bahasa \textit{Python} yang akan dikonversi menjadi kode yang dapat dieksekusi di \textit{PySpark}. Matriks Hamiltonian yang dimiliki oleh Graphene bersifat matriks dua dimensi. Lalu dalam penentuan ikatan nya akan dilakukan menggunakan penentuan posisi atom acak dua dimensi. Penentuan posisi {$\vec{A}$} yaitu dengan
 	\begin{equation}
 	\vec{A} = A_x + A_y
 	\end{equation}
@@ -716,12 +713,13 @@ Penelitian Kalkulasi Nilai Eigen berbasis Matriks Hamiltonian menggunakan Teknik
 	\end{equation}
 	dengan {$j_y = iy + dy$} dan {$j_x = ix + dx$}.
 	
-	Untuk menentukan atom mana saja yang terikat pada Graphene, kita bisa menurunkan dari ilustrasi pada Gambar 3.2.
+	Untuk menentukan atom mana saja yang terikat pada Graphene, kita bisa menurunkan dari ilustrasi pada Gambar \ref{struktur-graphene}.
 	\begin{center}
 		\includegraphics[width=7cm]{gambar/struk.png}
 		\captionof{figure}{Indeks Struktur Empirik Graphene}
+		\label{struktur-graphene}
 	\end{center}
-	Dari gambar ini terlihat bahwa tidak semua atom saling berikatan. Seperti contoh atom dengan indeks 1 tidak berikatan dengan atom indeks 7 dan hanya berikatan dengan atom indeks 0 dan 2. Lalu atom indeks 2 berikatan dengan indeks 1, 3 dan 8. Maka disini dilakukan pengondisian menggunakan vektor dengan rumus,
+	Dari gambar terlihat bahwa tidak semua atom saling berikatan. Seperti contoh atom dengan indeks 1 tidak berikatan dengan atom indeks 7 dan hanya berikatan dengan atom indeks 0 dan 2. Lalu atom indeks 2 berikatan dengan indeks 1, 3 dan 8. Maka disini dilakukan pengondisian menggunakan vektor dengan rumus,
 	\begin{equation}
 	rad = \sqrt{dx^2 + dy^2}
 	\end{equation}
@@ -755,7 +753,7 @@ Penelitian Kalkulasi Nilai Eigen berbasis Matriks Hamiltonian menggunakan Teknik
 		\captionof{figure}{Skema Kerja PySpark}
 		\label{sparkworker}
 	\end{center}
-	Dalam gambar \ref{sparkworker} terlihat bahwa Spark menggunakan arsitektur master / slave. Seperti yang kita lihat pada gambar, ia memiliki satu koordinator pusat (\textit{driver}) yang berkomunikasi dengan banyak \textit{worker} (eksekutor) yang tersebar. \textit{Driver} dan setiap \textit{worker} menjalankan proses Python mereka masing-masing.
+	Dalam Gambar \ref{sparkworker} terlihat bahwa Spark menggunakan arsitektur master / slave. Spark memiliki satu koordinator pusat (\textit{driver}) yang berkomunikasi dengan banyak \textit{worker} (eksekutor) yang tersebar. \textit{Driver} dan setiap \textit{worker} menjalankan proses Python mereka masing-masing.
 	
 	\subsection{Perancangan Kalkulasi Absorbansi terhadap Perubahan Energi Eksitasi}
 	
@@ -787,11 +785,197 @@ Pada bab ini, akan membahas mengenai hasil dari perancangan kode komputasi, sepe
 
 \subsection{Hasil Matriks Hamiltonian}
 
-Dari perancangan matriks Hamiltonian, akan didapatkan sebuah matriks $m_{x}n$ 2 dimensi. Matriks ini akan menjelaskan keberadaan partikel dan ikatan yang dimiliki oleh partikel tersebut dengan tetangga terdekatnya. Karena hanya mengambil tetangga terdekatnya, maka jarak antar atomnya dapat dianggap satu ($r_{ij}=1$). 
+Dari perancangan matriks Hamiltonian, akan didapatkan sebuah matriks $m_{x}n$ 2 dimensi. Matriks ini akan menjelaskan keberadaan partikel dan ikatan yang dimiliki oleh partikel tersebut dengan tetangga terdekatnya. Karena hanya mengambil tetangga terdekatnya, maka jarak antar atomnya dapat dianggap satu ($r_{ij}=1$). Untuk membuat matriks Hamiltoniannya, maka harus terlebih dahulu menentukan panjang atom di sumbu x dan panjang atom di sumbu y. 
+\begin{center}
+	\includegraphics[width=5cm]{gambar/benzene.png}
+	\captionof{figure}{Struktur Empirik Benzene untuk Hückel}
+	\label{benzene_structure}
+\end{center}
+Untuk benzene, maka panjang atom x nya adalah 3, dan panjang atom y nya adalah 2. Matriks Hamiltonian yang didapatkan nya seperti berikut.
+\begin{center}
+	\includegraphics[width=10cm]{gambar/benzene-hamiltonian.png}
+	\captionof{figure}{Matriks Hamiltonian Benzene}
+	\label{benzene_hamilton}
+\end{center}
+
+Jika kita validasi Gambar \ref{benzene_hamilton} dengan ikatan benzene pada Gambar \ref{benzene_structure}, maka terlihat bahwa tidak semua atom akan berikatan satu sama lain. Jika mengambil contoh atom $C_1$, maka hanya akan berikatan dengan atom $C_4$ dan $C_2$. Maka atom $C_1$ akan bernilai $\alpha$ dan ikatan dengan atom $C_4$ dan $C_2$ bernilai $\beta$. Maka matriks dengan indeks $H_{11}$ bernilai $-10,7$ eV, lalu $H_{12}$ dan $H_{14}$ bernilai $-1,58$ eV, begitupun untuk indeks lainnya.
+
+Untuk atom karbon, jika diperbanyak, maka indeks ikatannya pun akan berbeda. Misalkan untuk senyawa $C_{10}$, struktur yang dimilikinya akan seperti berikut,
+\begin{center}
+	\includegraphics[width=6cm]{gambar/C10.png}
+	\captionof{figure}{Struktur Empirik $C_{10}$ untuk Hückel}
+	\label{c10_structure}
+\end{center}
+dan matriks hamiltonian yang didapatkannya adalah
+\begin{center}
+	\includegraphics[width=10cm]{gambar/c10_hamiltonian.png}
+	\captionof{figure}{Matriks Hamiltonian $C_{10}$}
+	\label{c10_hamilton}
+\end{center}
+
+Terlihat antara struktur $C_{10}$ (Gambar \ref{c10_structure}) dengan matriks hamiltoniannya (Gambar \ref{c10_hamilton}) memiliki indeks yang sama. Sebagai contoh, untuk atom $C_{3}$ akan berikatan dengan atom $C_{8}$, $C_{2}$ dan $C_{4}$ yang menyebabkan terdapat nilai $\beta$ pada matriks $H_{38}$. $H_{34}$ dan $H_{32}$. Sedangkan untuk atom $C_{2}$ hanya berikatan dengan atom $C_{1}$ dan $C_{3}$ saja yang menyebabkan nilai $\beta$ hanya terdapat pada matriks $H_{21}$ dan $H_{23}$.
+
+Karena hanya melibatkan ikatan dengan tetangga terdekat (\textit{First-Nearest Neighbor}) sesuai asumsi Hückel, maka nilai $\beta$ (sebesar $-1.58$ eV) hanya untuk ikatan terdekatnya, sedangkan interaksi dengan atom lainnya diabaikan.
+
 \subsection{Hasil Kalkulasi Celah Energi}
+
+Dari matriks Hamiltonian yang didapatkan, kemudian dihitung nilai eigen nya. Nilai eigen ini yang menjadi energi yang dimiliki tiap orbital molekul. Nilai energi orbital molekul dari benzene adalah,
+\begin{center}
+	\includegraphics[width=8cm]{gambar/benzene-energy.png}
+	\captionof{figure}{Energi Orbital Molekul Benzene}
+	\label{benzene_energy}
+\end{center}
+dengan mengurangi energi HOMO terluar dengan LUMO terluar, maka didapatkan nilai celah energinya.
+\begin{equation}
+E_{gap} (benzene) = (-12,28 - (-9,12)) eV = -3,16 \ eV
+\end{equation}
+
+Apabila jumlah atom karbon ditambah menjadi senyawa $C_{10}$, maka energi orbital molekul nya menjadi 10 keadaan dengan energi tiap keadaannya sebesar,
+\begin{center}
+	\includegraphics[width=8cm]{gambar/c10_energy.png}
+	\captionof{figure}{Energi Orbital Molekul $C_{10}$}
+	\label{c10_ernergy}
+\end{center}
+Terlihat bahwa jika jumlah atom karbon diperbanyak, perbedaan energi tiap orbitalnya akan mengecil. Ini menyebabkan celah energinya pun akan semakin mengecil. Saat di plot kedalam grafik, maka akan terlihat jelas penurunan celah energinya seperti pada Gambar \ref{bandgap} dan pada Tabel \ref{gaptable}
+\begin{table}[h]
+	\centering
+	\caption{Tabel Celah Energi terhadap Banyaknya Atom Karbon}
+	\label{gaptable}
+	\begin{tabular}{|c|c|} 
+		\hline
+		N (atom) & Celah Energi (eV)\\ \hline
+		6 & 3,1599 \\ \hline
+		22 & 0,6942 \\ \hline
+		36 & 0,3284 \\ \hline
+		100 & 0,1306 \\ \hline
+		196 & 0,0698 \\ \hline
+		324 & 0,0434 \\ \hline
+		484 & 0,0296 \\ \hline
+		676 & 0,0214 \\ \hline
+		900 & 0,0163 \\ \hline
+		... & ... \\ \hline
+		9604 & 0,0016 \\ \hline
+	\end{tabular}
+\end{table}
+\begin{center}
+	\includegraphics[width=10cm]{gambar/bandgap.png}
+	\captionof{figure}{Grafik Celah Energi terhadap Banyaknya Atom}
+	\label{bandgap}
+\end{center}
+
 \subsection{Hasil Kalkulasi Celah Energi dengan \textit{Python} dan \textit{PySpark}}
+
+Karena ukuran matriks yang sangat besar, maka dilakukanlah beberapa teknik untuk mencari pemrosesan komputasi dengan waktu tercepat. Untuk itu, dilakukanlah komputasi dengan Python (menggunakan \textit{Serial Processing}, \textit{Multiprocessing} dan \textit{Threading}) dan PySpark. Dengan menggunakan matriks berukuran $36 * 36$ hingga $4900 * 4900$, didapatkan data waktu pemrosesan untuk Server Google Cloud dan Server KST sebagai berikut,
+\begin{table}[h]
+	\centering
+	\caption{Tabel Performa Komputasi dengan Server Google Cloud}
+	\resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|c|} 
+		\hline
+		Variasi Komputasi & Eksekusi ke-1 & Eksekusi ke-2 & Eksekusi ke-3 & Eksekusi ke-4 & Eksekusi ke-5 & Rata-rata & Stddev\\ \hline
+		Python & 2205,32 & 2377,87 & 2266,75 & 2254,75 & 2337,57 & 2288,46 & 61,53 \\ \hline
+		Spark & 528,73 & 537,24 & 544,09 & 612,98 & 622,35 & 569,08 & 40.08 \\ \hline
+		Multiprocessing & 615,76 & 786,04 & 738,32 & 677,24 & 726,87 & 708,84 & 57,99 \\ \hline
+		Threading & 2007,08 & 2035,64 & 2416,64 & 2040,86 & 2480,25 & 2196,46 & 207,34 \\ \hline
+	\end{tabular}}
+\end{table}
+\begin{table}[h]
+	\centering
+	\caption{Tabel Performa Komputasi dengan Server KST}
+	\resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|c|} 
+			\hline
+			Variasi Komputasi\centering & Eksekusi ke-1 & Eksekusi ke-2 & Eksekusi ke-3 & Eksekusi ke-4 & Eksekusi ke-5 & Rata-rata & Stddev\\ \hline
+			Python & 1919,96 & 2221,53 & 1890,03 & 2300,64 & 2214,35 & 2109,31 & 169,81 \\ \hline
+			Spark & 819,59 & 762,35 & 866,24 & 943,08 & 832,33 & 844,72 & 59,51 \\ \hline
+			Multiprocessing & 915,15 & 986,36 & 964,46 & 1008,46 & 954,28 & 965,74 & 31,44 \\ \hline
+			Threading & 1758,13 & 1781,08 & 2095,36 & 1969,45 & 1859,09 & 1892,62 & 125,43 \\ \hline
+	\end{tabular}}
+\end{table}
+\begin{center}
+	\includegraphics[width=11cm]{gambar/performa_komputasi.png}
+	\captionof{figure}{Grafik Performa Komputasi}
+	\label{performa_komputasi}
+\end{center}
+
+Dari Gambar \ref{performa_komputasi} terlihat bahwa menggunakan PySpark memiliki keunggulan dalam waktu komputasi. Waktu yang dibutuhkan untuk menghitung matriks berukuran $36*36$ hingga $4900*4900$ hanya sebesar $569,08$ detik untuk Server Google Cloud dan $844,72$ detik untuk Server KST. Pada urutan kedua tercepat yaitu menggunakan multiprocessing. Untuk multiprocessing dan PySpark memiliki cara kerja yang sama, yaitu menggunakan paralelisasi \textit{core} yang dimiliki oleh prosessor. Namun, untuk PySpark menggunakan paralelisasi kedalam jumlah pekerja (\textit{worker}) yang akan mengerjakan suatu tugas (\textit{task}) dengan \textit{In-Memory Processing}, yaitu proses yang akan dilakukan melibatkan \textit{memory}. Untuk \textit{load} dari server dapat dilihat di Lampiran () dan Lampiran (). Kemudian jika dibandingkan antara penggunaan Server Google Cloud dengan Server KST, terdapat keunggulan untuk pemrosesan Python dan Threading untuk Server KST dan keunggulan untuk pemrosesan PySpark dan Multiprocessing untuk Server Google Cloud.
+
 \subsection{Hasil Kalkulasi Absorbansi terhadap Perubahan Energi Eksitasi}
 
+Hasil dari energi orbital kemudian dicari besar eksitasi dari HOMO ke LUMO tiap keadaannya. Untuk benzene, maka energi eksitasi tiap keadaan HOMO ke LUMO nya adalah,
+\begin{table}[h]
+	\centering
+	\caption{Tabel Energi Eksitasi tiap Keadaan HOMO ke LUMO}
+	\label{delE}
+	\begin{tabular}{|c|c|} 
+			\hline
+			Eksitasi Orbital & $\Delta$E (eV) \\ \hline
+			4 ke 3 & 3,16 \\ \hline
+			4 ke 2 & 3,16 \\ \hline
+			4 ke 1 & 4,74 \\ \hline
+			5 ke 3 & 3,16 \\ \hline
+			5 ke 2 & 3,16 \\ \hline
+			5 ke 1 & 4,74 \\ \hline
+			6 ke 3 & 4,74 \\ \hline
+			6 ke 2 & 4,74 \\ \hline
+			6 ke 1 & 6,32 \\ \hline
+	\end{tabular}
+\end{table}
+
+Kemudian dari hasil vektor eigen, di masukkan kedalam persamaan \ref{lcao} untuk membuat persamaan \textit{linear combination atomic orbital} dan menjadi,
+\begin{equation}
+\begin{cases}
+{\psi_1} = -0,408{\phi}_{1} - 0,577{\phi}_{2} + 0,408{\phi}_{3} - 0,577{\phi}_{4} - 0,031{\phi}_{5} + 0,045{\phi}_{6}\\
+{\psi_2} = -0,408{\phi}_{1} - 0,289{\phi}_{2} - 0,408{\phi}_{3} + 0,289{\phi}_{4} - 0,515{\phi}_{5} - 0,520{\phi}_{6}\\
+{\psi_3} = -0,408{\phi}_{1} + 0,289{\phi}_{2} + 0,408{\phi}_{3} + 0,289{\phi}_{4} - 0,484{\phi}_{5} + 0,477{\phi}_{6}\\
+{\psi_4} = -0,408{\phi}_{1} - 0,289{\phi}_{2} - 0,408{\phi}_{3} + 0,289{\phi}_{4} + 0,484{\phi}_{5} + 0,477{\phi}_{6}\\
+{\psi_5} = -0,408{\phi}_{1} + 0,289{\phi}_{2} + 0,408{\phi}_{3} + 0,289{\phi}_{4} + 0,515{\phi}_{5} - 0,521{\phi}_{6}\\
+{\psi_6} = -0,408{\phi}_{1} + 0,577{\phi}_{2} - 0,408{\phi}_{3} - 0,577{\phi}_{4} + 0,031{\phi}_{5} + 0,045{\phi}_{6}
+\end{cases}
+\end{equation}
+
+Konstanta fungsi gelombang inilah yang akan menginterpretasikan momen dipol yang dimiliki oleh Benzene. Untuk mencari momen dipol, dapat menggunakan rumus \ref{dipol}. Hasil yang didapatkannya adalah,
+\begin{table}[h]
+	\centering
+	\caption{Tabel Momen Dipol Transisi}
+	\label{momendipol}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Transisi Orbital & Momen Dipol Transisi (eV) \\ \hline
+		4 ke 3 & 0,054 \\ \hline
+		4 ke 2 & 1,249*$10^{-15}$ \\ \hline
+		4 ke 1 & 7,772*$10^{-16}$ \\ \hline
+		5 ke 3 & 1,804*$10^{-16}$ \\ \hline
+		5 ke 2 & 1,284*$10^{-16}$ \\ \hline
+		5 ke 1 & -8,327*$10^{-17}$ \\ \hline
+		6 ke 3 & -2,689*$10^{-16}$ \\ \hline
+		6 ke 2 & -4,996*$10^{-16}$ \\ \hline
+		6 ke 1 & -1.183*$10^{-15}$ \\ \hline
+	\end{tabular}
+\end{table}
+
+Momen dipol transisi terbesar adalah saat transisi orbital 4 ke 3. Hal ini disebabkan karena transisi tersebut terletak pada titik terluar yang menyebabkan transisinya akan membutuhkan energi yang besar, dan transisi orbital 4 ke 3 merupakan transisi yang terjadi pada celah energi dari senyawa tersebut.
+
+Dari hasil perubahan energi eksitasi tiap orbital (Tabel \ref{delE}) dan hasil momen dipol transisi (Tabel \ref{momendipol}) akan dihitung besar absorbansi terhadap perubahan energi eksitasi tiap orbital menggunakan persamaan \ref{absorbansi}. Jika diplot, grafik absorpsi terhadap $\Delta$E nya menjadi, 
+\begin{center}
+	\includegraphics[width=10cm]{gambar/spectra-benzene.png}
+	\captionof{figure}{Spektrum Absorbansi terhadap Perubahan Energi Eksitasi pada Benzene}
+	\label{absorbance_benzene}
+\end{center}
+
+Dari gambar \ref{absorbance_benzene}, terlihat bahwa titik puncak penyerapan energi terjadi pada $\Delta$E sebesar $\pm$ 3.15 eV dan ini adalah besar celah energi yang dimiliki oleh Benzene. Hal ini disebabkan karena titik absorbsi energi menggambarkan besar energi yang akan diserap oleh elektron, dan energi yang diserap akan membuat elektron tereksitasi ke keadaan dengan energi yang lebih besar.
+
+Apabila jumlah atom karbon diperbanyak, maka puncak absorbansi yang terjadi akan bergeser ke kiri (mendekati $\Delta$E = 0). Terlihat pada Gambar \ref{absorbance_graphene50} dan Gambar \ref{absorbance_graphene400}.
+\begin{center}
+	\includegraphics[width=10cm]{gambar/spectra-graphene50.png}
+	\captionof{figure}{Spektrum Absorbansi terhadap Perubahan Energi Eksitasi pada Graphene 50 Atom}
+	\label{absorbance_graphene50}
+\end{center}
+\begin{center}
+	\includegraphics[width=10cm]{gambar/spectra-graphene400.png}
+	\captionof{figure}{Spektrum Absorbansi terhadap Perubahan Energi Eksitasi pada Graphene 400 Atom}
+	\label{absorbance_graphene400}
+\end{center}
+
+Selain itu, terdapat puncak-puncak kecil yang menunjukkan masih ada energi yang terserap oleh elektron. Ini menunjukkan bahwa Graphene bersifat metalik yaitu sebagai konduktor yang baik akibat perpindahan atau eksitasi elektron yang terjadi sangatlah mudah.
 
 
 \chapter*{BAB V \\ KESIMPULAN DAN SARAN}
@@ -801,19 +985,69 @@ Dari perancangan matriks Hamiltonian, akan didapatkan sebuah matriks $m_{x}n$ 2 
 \setcounter{figure}{0}
 \thispagestyle{myplain}
 \section{Kesimpulan}
-
+	Telah dirancang algoritma untuk membangun matriks Hamiltonian dan kalkulasi spektrum absorbsi menggunakan bahasa pemrograman Python. Data-data yang akan diamati meliputi: celah energi (\textit{gap energy}), energi eksitasi tiap tingkat orbital molekul ($\Delta$E), momen dipol transisi, dan absorbsi. Celah energi yang didapatkan akan mengecil jika semakin banyak atom karbon yang dimiliki oleh Graphene. Ini disebabkan karena saat atom karbon bertambah, jarak energi antar orbital molekulnya akan semakin kecil dan menyebabkan elektron lebih mudah untuk bereksitasi. Dalam penghitungan besar energi orbital molekul, dilakukan dengan menggunakan variasi komputasi Python, \textit{PySpark}, \textit{Multiprocessing} dan \textit{Threading}. Dari keempat variasi tersebut, PySpark memiliki keunggulan dalam waktu komputasi yang dibutuhkan dengan rata-rata $569,08$ detik untuk Server Google Cloud dan $844,72$ detik untuk Server KST. Setelah menghitung celah energi, lalu dicari energi eksitasi tiap tingkat orbital dan momen dipol transisinya dan akan didapatkan besar absorbansi tiap perubahan energi eksitasi. Jika di plot kedalam grafik, akan terlihat puncak absorbsi yang akan menginterpretasikan besar celah energi yang dimiliki oleh Graphene. Hal ini karena momen dipol transisi akan menggambarkan besar energi transisi orbital molekulnya, dan energi transisi tertinggi akan menggambarkan transisi dari keadaan HOMO ke LUMO yang merupakan celah energi. Puncak absorbansi akan semakin menggeser mendekati $\Delta E = 0$ saat atom karbon nya bertambah dan juga terdapat puncak-puncak kecil dari absorbansi yang menunjukkan Graphene merupakan bahan dengan sifat metalik dan konduktor yang baik.
 \section{Saran}
-	
+	Dari penelitian yang sudah dilakukan, terdapat beberapa masukan untuk penelitian selanjutnya yaitu:
+	\begin{enumerate}
+		\item Membuat plot spektrum absorbansi terhadap panjang gelombang dalam nanometer untuk melihat besar penyerapan energi di setiap panjang gelombangnya sesuai kerja UV-Vis Spektrometer
+		\item Membuat kode untuk mengkalkulasi spektrum absorbsi Graphene Oxide dan Reduced Graphene Oxide
+		\item Menganimasikan perilaku orbital molekul pada Graphene untuk mempermudah pembaca dalam memahami peristiwa tersebut
+		\item Melihat pengaruh \textit{Meta-Stable Energy} yang menyebabkan terdapat energi yang tersisa pada grafik absorbsi
+		\item Menggunakan performa Apache Spark dengan \textit{full-power} agar performa komputasi yang dihasilkan lebih baik
+	\end{enumerate}
 \addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
 \printbibliography[title = {DAFTAR PUSTAKA}]
-
 \chapter*{\centering DAFTAR LAMPIRAN }
 \thispagestyle{myplain}
-\section*{Lampiran 1 Kode Python}
-%\cftaddtitleline{toc}{chapter}{DAFTAR LAMPIRAN}{}
+\section*{Lampiran 1: Kode Kalkulasi Huckel dan Absorbansi}
 \addcontentsline{toc}{chapter}{DAFTAR LAMPIRAN}
-\addcontentsline{toc}{section}{Matriks Hamiltonian}
+\addcontentsline{toc}{section}{Lampiran 1: Kode Kalkulasi Huckel dan Absorbansi}
 \lstinputlisting[language=Python]{koding/huckel.py}
-\section*{Lampiran 2 Kode PySpark}
+
+\section*{Lampiran 2: Kode Eksekusi dengan Python}
+\addcontentsline{toc}{section}{Lampiran 2: Kode Eksekusi dengan Python}
+\lstinputlisting[language=Python]{koding/main.py}
+
+\section*{Lampiran 3: Kode Eksekusi dengan PySpark}
+\addcontentsline{toc}{section}{Lampiran 3: Kode Eksekusi dengan PySpark}
+\lstinputlisting[language=Python]{koding/main_spark.py}
+
+\section*{Lampiran 4: Kode Eksekusi dengan Multiprocessing}
+\addcontentsline{toc}{section}{Lampiran 4: Kode Eksekusi dengan Multiprocessing}
+\lstinputlisting[language=Python]{koding/main_mp_pool.py}
+
+\section*{Lampiran 5: Kode Eksekusi dengan Threading}
+\addcontentsline{toc}{section}{Lampiran 5: Kode Eksekusi dengan Threading}
+\lstinputlisting[language=Python]{koding/main_thread.py}
+
+\section*{Lampiran 6: \textit{Process Load} dengan Multiprocessing}
+\addcontentsline{toc}{section}{Lampiran : \textit{Process Load} dengan Multiprocessing}
+\begin{center}
+	\includegraphics[width=12cm]{gambar/mp_pool.png}
+\end{center}
+
+\section*{Lampiran 7: \textit{Process Load} dengan PySpark}
+\addcontentsline{toc}{section}{Lampiran : \textit{Process Load} dengan PySpark}
+\begin{center}
+	\includegraphics[width=12cm]{gambar/spark-submit.png}
+\end{center}
+
+\section*{Lampiran 8: Spark Master pada Server Google Cloud}
+\addcontentsline{toc}{section}{Lampiran 8: Spark Master pada Server Google Cloud}
+\begin{center}
+	\includegraphics[width=13cm]{gambar/gcp.png}
+\end{center}
+
+\section*{Lampiran 9: Spark Master pada Server KST}
+\addcontentsline{toc}{section}{Lampiran 8: Spark Master pada Server KST}
+\begin{center}
+	\includegraphics[width=11cm]{gambar/kst.png}
+\end{center}
+
+\section*{Lampiran 10: Spesifikasi Server Google Cloud}
+\addcontentsline{toc}{section}{Lampiran 10: Spesifikasi Server Google Cloud}
+\begin{center}
+	\includegraphics[width=12cm]{gambar/neofetch-gcp.png}
+\end{center}
 
 \end{document}
