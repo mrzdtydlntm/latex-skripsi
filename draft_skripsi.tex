@@ -129,7 +129,7 @@ numbersep=3pt,
 	\begin{onehalfspacing}
 \begin{titlepage}
 	\centering
-	{\textbf{KALKULASI NILAI EIGEN BERBASIS MATRIKS HAMILTONIAN MENGGUNAKAN TEKNIK \textit{BLOCK MATRIX} STUDI KASUS PADA \textit{GRAPHENE}}}
+	{\textbf{KALKULASI NILAI EIGEN BERBASIS MATRIKS HAMILTONIAN MENGGUNAKAN TEKNIK \textit{BLOCK MATRIX}: STUDI KASUS PADA \textit{GRAPHENE}}}
 
 	\vspace{2cm}
 
@@ -435,7 +435,7 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 	\end{bmatrix}
 	\begin{bmatrix}c_1 \\ c_2 \end{bmatrix} = 0
 	\end{equation}
-	Energi orbital molekul dalam teori OMH didefinisikan dalam dua bentuk, yaitu energi dari sebuah elektron dalam orbital 2p yang disebut dengan {$\alpha$} dan energi interaksi antara dua orbital 2p yang disebut dengan {$\beta$} \cite{Anil}\cite{Rustaman2008}.
+	Energi orbital molekul dalam teori OMH didefinisikan dalam dua bentuk, yaitu energi dari sebuah elektron dalam orbital 2p (energi ionisasi) yang disebut dengan {$\alpha$} dan energi interaksi antara dua orbital 2p (energi resonansi) yang disebut dengan {$\beta$} \cite{Anil}\cite{Rustaman2008}.
 	
 	Dalam kasus ini, {$\hat{H}$} merupakan suatu matriks Hamiltonian yang menggambarkan keadaan orbital dari suatu molekul. Banyaknya atom karbon akan mempengaruhi besar matriks Hamiltonian yang didapat. Seperti misalkan benzene ({$C_6H_6$}) yang memiliki 6 atom karbon, maka matriks yang dihasilkannya berukuran 6x6.
 	Jika dikaitkan dengan graphene yang memiliki jumlah atom C yang sangat banyak, maka matriks Hamiltonian yang dihasilkannya pun ukurannya akan sangat besar. Operasi yang akan digunakan yaitu operasi eigen. Hasil dari metode ini adalah energi orbital dari molekul uji yang digunakan. Aplikasi dari metode Hückel ini yaitu bisa menghitung celah pita \cite{Imamura2018}, rapat elektron dan konduktivitas bahan \cite{Siregar2014}. Dari literatur, dikatakan bahwa pada Graphene besar $\alpha$ = -10.7 eV dan $\beta$ = -1.58 eV \cite{Ni2015}.
@@ -450,7 +450,7 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 		\captionof{figure}{\textit{Diagram HOMO dan LUMO pada suatu molekul \label{homolumo}} \cite{Tomgelly2010}}
 	\end{center}
 	
-	Teori pita adalah suatu model yang menjelaskan keadaan sebuah elektron yang hanya memiliki sebuah keadaan energi spesifik tertentu \cite{Anil}. Dalam sebuah senyawa, elektron akan menempati suatu tempat sesuai energi spesifik yang dimilikinya. Tempat inilah yang akan disebut sebagai pita energi. Sesuai dengan larangan Pauli (\textit{Pauli Exclusion}) dimana tidak ada dua elektron yang memiliki bilangan kuantum yang sama. Jadi jika terdapat elektron lain, elektron tersebut akan membuat pita baru dan tidak akan menempati keadaan pita yang lainnya \cite{Faizi2021}.
+	Teori pita adalah suatu model yang menjelaskan keadaan sebuah elektron yang hanya memiliki sebuah keadaan energi spesifik tertentu \cite{Anil}. Dalam sebuah senyawa, elektron akan menempati suatu tempat sesuai energi spesifik yang dimilikinya. Tempat inilah yang akan disebut sebagai pita energi. Sesuai dengan larangan Pauli (\textit{Pauli Exclusion}) dimana tidak ada dua elektron yang memiliki bilangan kuantum yang sama. Jika terdapat elektron lain, elektron tersebut akan membuat pita baru dan tidak akan menempati keadaan pita yang lainnya \cite{Faizi2021}.
 	
 	\section{Spektrum Absorbansi}
 	
@@ -466,7 +466,7 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 	\end{equation}
 	$\delta_{E,E_{j}}$ adalah delta \textit{kronecker} dan $E_{j}$ adalah \textit{eigen energy} pada keadaan kolektif \cite{Abdussalam2017}. 
 	
-	Dari penjelasan sebelumnya, permasalahan yang dihadapi yaitu ukuran matriks Hamiltonian yang sangat besar dan ini berefek pada laju komputasi yang akan kita lakukan. Hal tersebut bisa membuat laju komputasi menurun drastis karena proses komputasi yang sangat banyak dan tidak bisa dilakukan secara paralel. Untuk menjawab permasalahan tersebut, maka kita akan menggunakan operasi Block Matrix sebagai paralelisasi operasi matriks agar dapat dikerjakan dengan worker yang berbeda dan membantu dalam komputasi.
+	Permasalahan yang dihadapi adalah ukuran matriks Hamiltonian yang sangat besar dan ini berefek pada laju komputasi yang akan kita lakukan. Hal tersebut bisa membuat laju komputasi menurun drastis karena proses komputasi yang sangat banyak dan tidak bisa dilakukan secara paralel. Untuk menjawab permasalahan tersebut, maka kita akan menggunakan operasi Block Matrix sebagai paralelisasi operasi matriks agar dapat dikerjakan dengan worker yang berbeda dan membantu dalam komputasi.
 	
 	\section{\textit{Block Matrix}}
 
@@ -867,7 +867,7 @@ Terlihat bahwa jika jumlah atom karbon diperbanyak, perbedaan energi tiap orbita
 
 \subsection{Hasil Kalkulasi Celah Energi dengan \textit{Python} dan \textit{PySpark}}
 
-Karena ukuran matriks yang sangat besar, maka dilakukanlah beberapa teknik untuk mencari pemrosesan komputasi dengan waktu tercepat. Untuk itu, dilakukanlah komputasi dengan Python (menggunakan \textit{Serial Processing}, \textit{Multiprocessing} dan \textit{Threading}) dan PySpark. Dengan menggunakan matriks berukuran $36 * 36$ hingga $4900 * 4900$, didapatkan data waktu pemrosesan untuk Server Google Cloud dan Server KST sebagai berikut,
+Karena ukuran matriks yang sangat besar, maka dilakukanlah beberapa teknik untuk mencari pemrosesan komputasi dengan waktu tercepat. Untuk itu, dilakukanlah komputasi dengan Python (menggunakan \textit{Serial Processing}, \textit{Multiprocessing}  dan \textit{Threading}) dan PySpark. Dengan menggunakan matriks berukuran $36 * 36$ hingga $4900 * 4900$, didapatkan data waktu pemrosesan untuk Server Google Cloud dan Server KST sebagai berikut,
 \begin{table}[h]
 	\centering
 	\caption{Tabel Performa Komputasi dengan Server Google Cloud}

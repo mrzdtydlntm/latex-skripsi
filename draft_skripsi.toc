@@ -43,12 +43,12 @@
 \contentsline {chapter}{DAFTAR PUSTAKA}{43}{Item.58}%
 \contentsline {chapter}{DAFTAR LAMPIRAN}{50}{section*.23}%
 \contentsline {section}{Lampiran 1: Kode Kalkulasi Huckel dan Absorbansi}{50}{section*.24}%
-\contentsline {section}{Lampiran 2: Kode Eksekusi dengan Python}{59}{section*.25}%
-\contentsline {section}{Lampiran 3: Kode Eksekusi dengan PySpark}{60}{section*.26}%
-\contentsline {section}{Lampiran 4: Kode Eksekusi dengan Multiprocessing}{61}{section*.27}%
-\contentsline {section}{Lampiran 5: Kode Eksekusi dengan Threading}{62}{section*.28}%
-\contentsline {section}{Lampiran : \textit {Process Load} dengan Multiprocessing}{63}{section*.29}%
-\contentsline {section}{Lampiran : \textit {Process Load} dengan PySpark}{63}{section*.30}%
-\contentsline {section}{Lampiran 8: Spark Master pada Server Google Cloud}{63}{section*.31}%
-\contentsline {section}{Lampiran 8: Spark Master pada Server KST}{64}{section*.32}%
-\contentsline {section}{Lampiran 10: Spesifikasi Server Google Cloud}{64}{section*.33}%
+\contentsline {section}{Lampiran 2: Kode Eksekusi dengan Python}{55}{section*.25}%
+\contentsline {section}{Lampiran 3: Kode Eksekusi dengan PySpark}{56}{section*.26}%
+\contentsline {section}{Lampiran 4: Kode Eksekusi dengan Multiprocessing}{58}{section*.27}%
+\contentsline {section}{Lampiran 5: Kode Eksekusi dengan Threading}{58}{section*.28}%
+\contentsline {section}{Lampiran : \textit {Process Load} dengan Multiprocessing}{60}{section*.29}%
+\contentsline {section}{Lampiran : \textit {Process Load} dengan PySpark}{60}{section*.30}%
+\contentsline {section}{Lampiran 8: Spark Master pada Server Google Cloud}{60}{section*.31}%
+\contentsline {section}{Lampiran 8: Spark Master pada Server KST}{61}{section*.32}%
+\contentsline {section}{Lampiran 10: Spesifikasi Server Google Cloud}{61}{section*.33}%

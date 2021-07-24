@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.3)  23 JUL 2021 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.3)  24 JUL 2021 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1661,52 +1661,54 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 1007.
 
-(./koding/huckel.py [50
-
-]
+(./koding/huckel.py
 LaTeX Font Info:    Trying to load font information for OML+ptm on input line 2
-2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
+0.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
- [51] [52] [53]
-[54] [55] [56] [57] [58]) (./koding/main.py) [59] (./koding/main_spark.py
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 23.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 20.
 
-[60]) (./koding/main_mp_pool.py) [61] (./koding/main_thread.py)
-<gambar/mp_pool.png, id=1289, 1371.1225pt x 770.88pt>
+[50
+
+] [51] [52] [53] [54]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 127.
+
+) (./koding/main.py [55]) (./koding/main_spark.py
+[56]) [57] (./koding/main_mp_pool.py) (./koding/main_thread.py [58])
+<gambar/mp_pool.png, id=1217, 1371.1225pt x 770.88pt>
 File: gambar/mp_pool.png Graphic file (type png)
 <use gambar/mp_pool.png>
 Package pdftex.def Info: gambar/mp_pool.png  used on input line 1028.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
- [62]
-<gambar/spark-submit.png, id=1314, 1371.1225pt x 770.88pt>
+ [59]
+<gambar/spark-submit.png, id=1238, 1371.1225pt x 770.88pt>
 File: gambar/spark-submit.png Graphic file (type png)
 <use gambar/spark-submit.png>
 Package pdftex.def Info: gambar/spark-submit.png  used on input line 1034.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
-<gambar/gcp.png, id=1315, 861.9703pt x 180.675pt>
+<gambar/gcp.png, id=1239, 861.9703pt x 180.675pt>
 File: gambar/gcp.png Graphic file (type png)
 <use gambar/gcp.png>
 Package pdftex.def Info: gambar/gcp.png  used on input line 1040.
 (pdftex.def)             Requested size: 369.88582pt x 77.53159pt.
-<gambar/kst.png, id=1316, 668.4975pt x 188.20313pt>
+<gambar/kst.png, id=1240, 668.4975pt x 188.20313pt>
 File: gambar/kst.png Graphic file (type png)
 <use gambar/kst.png>
 Package pdftex.def Info: gambar/kst.png  used on input line 1046.
 (pdftex.def)             Requested size: 312.9803pt x 88.11661pt.
- [63 <./gambar/mp_pool.png> <./gambar/spark-submit.png> <./gambar/gcp.png>]
-<gambar/neofetch-gcp.png, id=1324, 1371.1225pt x 770.88pt>
+
+[60 <./gambar/mp_pool.png> <./gambar/spark-submit.png> <./gambar/gcp.png>]
+<gambar/neofetch-gcp.png, id=1249, 1371.1225pt x 770.88pt>
 File: gambar/neofetch-gcp.png Graphic file (type png)
 <use gambar/neofetch-gcp.png>
 Package pdftex.def Info: gambar/neofetch-gcp.png  used on input line 1052.
 (pdftex.def)             Requested size: 341.43306pt x 191.95496pt.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1055.
- [64 <./gambar/kst.png> <./gambar/neofetch-gcp.png>]
+
+[61 <./gambar/kst.png> <./gambar/neofetch-gcp.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1055.
  (./draft_skripsi.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1055.
@@ -1719,13 +1721,13 @@ Package logreq Info: Writing requests to 'draft_skripsi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23154 strings out of 481239
- 416602 string characters out of 5920377
- 1105102 words of memory out of 5000000
- 37436 multiletter control sequences out of 15000+600000
+ 23084 strings out of 481239
+ 415555 string characters out of 5920377
+ 1080106 words of memory out of 5000000
+ 37432 multiletter control sequences out of 15000+600000
  585154 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,54p,1732b,2530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,14n,54p,1732b,2469s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-
@@ -1738,10 +1740,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on draft_skripsi.pdf (77 pages, 1704886 bytes).
+Output written on draft_skripsi.pdf (74 pages, 1698127 bytes).
 PDF statistics:
- 1495 PDF objects out of 1728 (max. 8388607)
- 1314 compressed objects within 14 object streams
- 571 named destinations out of 1000 (max. 500000)
+ 1407 PDF objects out of 1440 (max. 8388607)
+ 1230 compressed objects within 13 object streams
+ 505 named destinations out of 1000 (max. 500000)
  585 words of extra memory for PDF output out of 10000 (max. 10000000)
 
