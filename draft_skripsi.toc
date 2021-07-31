@@ -12,43 +12,43 @@
 \contentsline {section}{\numberline {1.3}Batasan Masalah}{3}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Tujuan Penelitian}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Manfaat Penelitian}{4}{section.1.5}%
-\contentsline {chapter}{BAB II TINJAUAN PUSTAKA}{6}{chapter*.10}%
-\contentsline {section}{\numberline {2.1}Kimia Organik}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Graphene}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Teori Hückel}{9}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Teori Pita}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Spektrum Absorbansi}{14}{section.2.5}%
-\contentsline {section}{\numberline {2.6}\textit {Block Matrix}}{16}{section.2.6}%
-\contentsline {section}{\numberline {2.7}\textit {Big Data}}{18}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}\textit {Apache Spark}}{20}{subsection.2.7.1}%
-\contentsline {chapter}{BAB III METODE PENELITIAN}{24}{chapter*.13}%
-\contentsline {section}{\numberline {3.1}Perancangan Algoritma Penelitian}{24}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Alat yang Digunakan}{25}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Perangkat Lunak}{25}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Perangkat Keras}{26}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Perancangan Kode Komputasi}{26}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Perancangan Matriks Hamiltonian}{26}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Perancangan Kalkulasi Celah Energi}{29}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Perancangan Kalkulasi Celah Energi dengan \textit {Python} dan \textit {PySpark}}{30}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Perancangan Kalkulasi Absorbansi terhadap Perubahan Energi Eksitasi}{31}{subsection.3.3.4}%
-\contentsline {chapter}{BAB IV HASIL DAN PEMBAHASAN}{32}{chapter*.14}%
-\contentsline {section}{\numberline {4.1}Hasil Kode Komputasi}{32}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Hasil Matriks Hamiltonian}{32}{subsection.4.1.1}%
+\contentsline {chapter}{BAB II TINJAUAN PUSTAKA}{5}{chapter*.10}%
+\contentsline {section}{\numberline {2.1}Kimia Organik}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Graphene}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Teori Hückel}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Teori Pita}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Spektrum Absorbansi}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.6}\textit {Block Matrix}}{15}{section.2.6}%
+\contentsline {section}{\numberline {2.7}\textit {Big Data}}{17}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}\textit {Apache Spark}}{19}{subsection.2.7.1}%
+\contentsline {chapter}{BAB III METODE PENELITIAN}{23}{chapter*.13}%
+\contentsline {section}{\numberline {3.1}Perancangan Algoritma Penelitian}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Alat yang Digunakan}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Perangkat Lunak}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Perangkat Keras}{25}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Perancangan Kode Komputasi}{25}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Perancangan Matriks Hamiltonian}{25}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Perancangan Kalkulasi Celah Energi}{28}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Perancangan Kalkulasi Celah Energi dengan \textit {Python} dan \textit {PySpark}}{29}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Perancangan Kalkulasi Absorbansi terhadap Perubahan Energi Eksitasi}{30}{subsection.3.3.4}%
+\contentsline {chapter}{BAB IV HASIL DAN PEMBAHASAN}{31}{chapter*.14}%
+\contentsline {section}{\numberline {4.1}Hasil Kode Komputasi}{31}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Hasil Matriks Hamiltonian}{31}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Hasil Kalkulasi Celah Energi}{34}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Hasil Kalkulasi Celah Energi dengan \textit {Python} dan \textit {PySpark}}{36}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}Hasil Kalkulasi Celah Energi dengan \textit {Python} dan \textit {PySpark}}{37}{subsection.4.1.3}%
 \contentsline {subsection}{\numberline {4.1.4}Hasil Kalkulasi Absorbansi terhadap Perubahan Energi Eksitasi}{38}{subsection.4.1.4}%
 \contentsline {chapter}{BAB V KESIMPULAN DAN SARAN}{42}{chapter*.20}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{42}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Saran}{43}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{43}{Item.58}%
-\contentsline {chapter}{DAFTAR LAMPIRAN}{50}{section*.23}%
-\contentsline {section}{Lampiran 1: Kode Kalkulasi Huckel dan Absorbansi}{50}{section*.24}%
-\contentsline {section}{Lampiran 2: Kode Eksekusi dengan Python}{55}{section*.25}%
-\contentsline {section}{Lampiran 3: Kode Eksekusi dengan PySpark}{56}{section*.26}%
-\contentsline {section}{Lampiran 4: Kode Eksekusi dengan Multiprocessing}{58}{section*.27}%
-\contentsline {section}{Lampiran 5: Kode Eksekusi dengan Threading}{58}{section*.28}%
-\contentsline {section}{Lampiran : \textit {Process Load} dengan Multiprocessing}{60}{section*.29}%
-\contentsline {section}{Lampiran : \textit {Process Load} dengan PySpark}{60}{section*.30}%
-\contentsline {section}{Lampiran 8: Spark Master pada Server Google Cloud}{60}{section*.31}%
-\contentsline {section}{Lampiran 8: Spark Master pada Server KST}{61}{section*.32}%
-\contentsline {section}{Lampiran 10: Spesifikasi Server Google Cloud}{61}{section*.33}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{44}{Item.55}%
+\contentsline {chapter}{DAFTAR LAMPIRAN}{51}{section*.23}%
+\contentsline {section}{Lampiran 1: Kode Kalkulasi Huckel dan Absorbansi}{51}{section*.24}%
+\contentsline {section}{Lampiran 2: Kode Eksekusi dengan Python}{56}{section*.25}%
+\contentsline {section}{Lampiran 3: Kode Eksekusi dengan PySpark}{57}{section*.26}%
+\contentsline {section}{Lampiran 4: Kode Eksekusi dengan Multiprocessing}{59}{section*.27}%
+\contentsline {section}{Lampiran 5: Kode Eksekusi dengan Threading}{59}{section*.28}%
+\contentsline {section}{Lampiran : \textit {Process Load} dengan Multiprocessing}{61}{section*.29}%
+\contentsline {section}{Lampiran : \textit {Process Load} dengan PySpark}{61}{section*.30}%
+\contentsline {section}{Lampiran 8: Spark Master pada Server Google Cloud}{61}{section*.31}%
+\contentsline {section}{Lampiran 8: Spark Master pada Server KST}{62}{section*.32}%
+\contentsline {section}{Lampiran 10: Spesifikasi Server Google Cloud}{62}{section*.33}%

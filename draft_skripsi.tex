@@ -287,9 +287,8 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 
 	\section{Identifikasi Masalah}
 	\begin{enumerate}
-	   	\item Bagaimana pita energi yang dimiliki oleh Graphene
-	   	\item Bagaimana pengaruh penggunaan PySpark terhadap waktu komputasi matriks yang dibutuhkan
-	   	\item Bagaimana Spektrum Absorbansi terhadap Perubahan Energi dari Graphene
+	   	\item Apakah perhitungan celah energi yang dimiliki Graphene dapat dipercepat dengan Spark?
+	   	\item Seberapa akurat hasi kalkulasi celah energi dan spektrum absorpsi nya jika dihitung menggunakan Python?
 	\end{enumerate}
 
 	\section{Batasan Masalah}
@@ -302,7 +301,6 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 			\item Hanya melibatkan orbital elektron-$\pi$ dan mengabaikan interaksi orbital elektron-$\sigma$ dengan orbital elektron $\pi$
 		\end{enumerate}
 		\item Menggunakan aplikasi \textit{Apache Spark} dengan bahasa pemrograman \textit{Python} dalam \textit{PySpark}
-		\item Senyawa yang digunakan dalam perhitungan yaitu Graphene
 		\item Menggunakan dua buah \textit{environment} server untuk kalkulasi:
 		\begin{enumerate}
 			\item Google Cloud Instance Iowa (US)
@@ -312,10 +310,9 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 
 	\section{Tujuan Penelitian}
 	\begin{enumerate}
-		\item Merancang algoritma untuk membangun matriks Hamiltonian dan kalkulasi spektrum absorbsi
-		\item Dapat mengetahui hubungan antara besar celah energi tiap banyaknya atom yang terlibat
-		\item Membandingkan performa komputasi menggunakan PySpark, dan Python dengan variasi \textit{serial processing}, \textit{multiprocessing} dan \textit{threading}
-		\item Mengetahui spektrum pita energi yang dimiliki oleh Graphene
+		\item Menghitung celah energi Benzene dan Graphene menggunakan Python dengan melihat akurasi perhitungannya
+		\item Membandingkan kecepatan komputasi menggunakan Python dengan variasi Serial Processing, Multi Processing, Threading, dan PySpark
+		\item Mengkonstruksi spektrum absorbsi terhadap perubahan energi eksitasi
 	\end{enumerate}
 
 	\section{Manfaat Penelitian}
@@ -812,7 +809,12 @@ dan matriks hamiltonian yang didapatkannya adalah
 	\captionof{figure}{Matriks Hamiltonian $C_{10}$}
 	\label{c10_hamilton}
 \end{center}
-
+dan jika kita menggunakan Graphene dengan besar 3.5 nm atau setara 21 atom karbon, maka akan dihasilkan matriks hamiltonian,
+\begin{center}
+	\includegraphics[width=7.5cm]{gambar/graphene21_hamiltonian.png}
+	\captionof{figure}{Matriks Hamiltonian Graphene dengan 21 Atom}
+	\label{graphene21_hamilton}
+\end{center}
 Terlihat antara struktur $C_{10}$ (Gambar \ref{c10_structure}) dengan matriks hamiltoniannya (Gambar \ref{c10_hamilton}) memiliki indeks yang sama. Sebagai contoh, untuk atom $C_{3}$ akan berikatan dengan atom $C_{8}$, $C_{2}$ dan $C_{4}$ yang menyebabkan terdapat nilai $\beta$ pada matriks $H_{38}$. $H_{34}$ dan $H_{32}$. Sedangkan untuk atom $C_{2}$ hanya berikatan dengan atom $C_{1}$ dan $C_{3}$ saja yang menyebabkan nilai $\beta$ hanya terdapat pada matriks $H_{21}$ dan $H_{23}$.
 
 Karena hanya melibatkan ikatan dengan tetangga terdekat (\textit{First-Nearest Neighbor}) sesuai asumsi Hückel, maka nilai $\beta$ (sebesar $-1.58$ eV) hanya untuk ikatan terdekatnya, sedangkan interaksi dengan atom lainnya diabaikan.
@@ -827,16 +829,19 @@ Dari matriks Hamiltonian yang didapatkan, kemudian dihitung nilai eigen nya. Nil
 \end{center}
 dengan mengurangi energi HOMO terluar dengan LUMO terluar, maka didapatkan nilai celah energinya.
 \begin{equation}
-E_{gap} (benzene) = (-12,28 - (-9,12)) eV = -3,16 \ eV
+E_{gap} (benzene) = (-9,12 - (-12,28)) eV = 3,16 \ eV
 \end{equation}
+Jika dibandingkan dengan hasil literatur, yaitu sebesar $3.1$ eV \cite{Masiak2017}, maka terdapat kesalahan relatif sebesar 18,96\%.
 
-Apabila jumlah atom karbon ditambah menjadi senyawa $C_{10}$, maka energi orbital molekul nya menjadi 10 keadaan dengan energi tiap keadaannya sebesar,
+Apabila jumlah atom karbon ditambah menjadi senyawa Graphene dengan 21 atom, maka energi orbital molekul nya menjadi 21 keadaan dengan energi tiap keadaannya sebesar,
 \begin{center}
-	\includegraphics[width=8cm]{gambar/c10_energy.png}
-	\captionof{figure}{Energi Orbital Molekul $C_{10}$}
-	\label{c10_ernergy}
+	\includegraphics[width=8cm]{gambar/graphene21_energy.png}
+	\captionof{figure}{Energi Orbital Molekul Graphene dengan 21 Atom}
+	\label{graphene21_energy}
 \end{center}
-Terlihat bahwa jika jumlah atom karbon diperbanyak, perbedaan energi tiap orbitalnya akan mengecil. Ini menyebabkan celah energinya pun akan semakin mengecil. Saat di plot kedalam grafik, maka akan terlihat jelas penurunan celah energinya seperti pada Gambar \ref{bandgap} dan pada Tabel \ref{gaptable}
+dengan celah energi nya sebesar 0.5291 eV. Dalam literatur, untuk Graphene berukuran 3.5 nm atau setara dengan 21 atom karbon memiliki celah energi 0,4 eV \cite{Jeon2013}. Kesalahan relatif yang didapatkan sebesar 32,28 \%. Kesalahan relatif ini terjadi karena Teori Hückel merupakan persamaan semi-empirik dengan pendekatan nilai $\alpha$ dan $\beta$. Maka akan terdapat perbedaan nilai dengan hasil dari karakterisasi bahan tersebut, dan juga karena Teori Hückel mengabaikan interaksi dengan atom-atom lainnya yang menyebabkan tidak semua atom akan saling berinteraksi pada teori ini.
+
+Lalu, terlihat bahwa jika jumlah atom karbon diperbanyak, perbedaan energi tiap orbitalnya akan mengecil. Ini menyebabkan celah energinya pun akan semakin mengecil. Saat di plot kedalam grafik, maka akan terlihat jelas penurunan celah energinya seperti pada Gambar \ref{bandgap} dan pada Tabel \ref{gaptable}
 \begin{table}[h]
 	\centering
 	\caption{Tabel Celah Energi terhadap Banyaknya Atom Karbon}
@@ -845,6 +850,7 @@ Terlihat bahwa jika jumlah atom karbon diperbanyak, perbedaan energi tiap orbita
 		\hline
 		N (atom) & Celah Energi (eV)\\ \hline
 		6 & 3,1599 \\ \hline
+		21 & 0,5291 \\ \hline
 		22 & 0,6942 \\ \hline
 		36 & 0,3284 \\ \hline
 		100 & 0,1306 \\ \hline
@@ -967,14 +973,9 @@ Dari gambar \ref{absorbance_benzene}, terlihat bahwa titik puncak penyerapan ene
 
 Apabila jumlah atom karbon diperbanyak, maka puncak absorbansi yang terjadi akan bergeser ke kiri (mendekati $\Delta$E = 0). Terlihat pada Gambar \ref{absorbance_graphene50} dan Gambar \ref{absorbance_graphene400}.
 \begin{center}
-	\includegraphics[width=10cm]{gambar/spectra-graphene50.png}
-	\captionof{figure}{Spektrum Absorbansi terhadap Perubahan Energi Eksitasi pada Graphene 50 Atom}
+	\includegraphics[width=12cm]{gambar/spectra-graphene.png}
+	\captionof{figure}{Spektrum Absorbansi terhadap Perubahan Energi Eksitasi pada Graphene}
 	\label{absorbance_graphene50}
-\end{center}
-\begin{center}
-	\includegraphics[width=10cm]{gambar/spectra-graphene400.png}
-	\captionof{figure}{Spektrum Absorbansi terhadap Perubahan Energi Eksitasi pada Graphene 400 Atom}
-	\label{absorbance_graphene400}
 \end{center}
 
 Selain itu, terdapat puncak-puncak kecil yang menunjukkan masih ada energi yang terserap oleh elektron. Ini menunjukkan bahwa Graphene bersifat metalik yaitu sebagai konduktor yang baik akibat perpindahan atau eksitasi elektron yang terjadi sangatlah mudah.
@@ -987,7 +988,7 @@ Selain itu, terdapat puncak-puncak kecil yang menunjukkan masih ada energi yang 
 \setcounter{figure}{0}
 \thispagestyle{myplain}
 \section{Kesimpulan}
-	Telah dirancang algoritma untuk membangun matriks Hamiltonian dan kalkulasi spektrum absorbsi menggunakan bahasa pemrograman Python. Data-data yang akan diamati meliputi: celah energi (\textit{gap energy}), energi eksitasi tiap tingkat orbital molekul ($\Delta$E), momen dipol transisi, dan absorbsi. Celah energi yang didapatkan akan mengecil jika semakin banyak atom karbon yang dimiliki oleh Graphene. Ini disebabkan karena saat atom karbon bertambah, jarak energi antar orbital molekulnya akan semakin kecil dan menyebabkan elektron lebih mudah untuk bereksitasi. Dalam penghitungan besar energi orbital molekul, dilakukan dengan menggunakan variasi komputasi Python, \textit{PySpark}, \textit{Multiprocessing} dan \textit{Threading}. Dari keempat variasi tersebut, PySpark memiliki keunggulan dalam waktu komputasi yang dibutuhkan dengan rata-rata $569,08$ detik untuk Server Google Cloud dan $844,72$ detik untuk Server KST. Setelah menghitung celah energi, lalu dicari energi eksitasi tiap tingkat orbital dan momen dipol transisinya dan akan didapatkan besar absorbansi tiap perubahan energi eksitasi. Jika di plot kedalam grafik, akan terlihat puncak absorbsi yang akan menginterpretasikan besar celah energi yang dimiliki oleh Graphene. Hal ini karena momen dipol transisi akan menggambarkan besar energi transisi orbital molekulnya, dan energi transisi tertinggi akan menggambarkan transisi dari keadaan HOMO ke LUMO yang merupakan celah energi. Puncak absorbansi akan semakin menggeser mendekati $\Delta E = 0$ saat atom karbon nya bertambah dan juga terdapat puncak-puncak kecil dari absorbansi yang menunjukkan Graphene merupakan bahan dengan sifat metalik dan konduktor yang baik.
+	Telah dirancang algoritma untuk membangun matriks Hamiltonian dan kalkulasi spektrum absorbsi menggunakan bahasa pemrograman Python. Data-data yang akan didapatkan meliputi: celah energi (\textit{gap energy}), energi eksitasi tiap tingkat orbital molekul ($\Delta$E), momen dipol transisi, dan absorbsi. Celah energi yang didapatkan akan mengecil jika semakin banyak atom karbon yang dimiliki oleh Graphene. Ini disebabkan karena saat atom karbon bertambah, jarak energi antar orbital molekulnya akan semakin kecil atau \textit{Density of States} nya bertambah padat dan menyebabkan elektron lebih mudah untuk bereksitasi. Akurasi yang didapatkan dari hasil perhitungan celah energi yaitu: celah energi Benzene pada literatur sebesar 3.1 eV \cite{Masiak2017} dan hasil komputasi sebesar 3.1599 eV dengan kesalahan relatif sebesar 18,95\%. Untuk akurasi Graphene 3.5 nm, didapatkan hasil literatur sebesar 0.4 eV dan hasil komputasi sebesar 0.5219 eV dengan kesalahan relatif sebesar 32,275\%. Hal ini diakibatkan Teori Hückel merupakan persamaan semi-empirik dan hanya melibatkan interaksi tetangga terdekatnya saja. Dalam penghitungan besar energi orbital molekul, dilakukan dengan menggunakan variasi komputasi Python, \textit{PySpark}, \textit{Multiprocessing} dan \textit{Threading}. Dari keempat variasi tersebut, PySpark memiliki keunggulan dalam waktu komputasi yang dibutuhkan dengan rata-rata $569,08$ detik untuk Server Google Cloud dan $844,72$ detik untuk Server KST. Setelah menghitung celah energi, lalu dicari energi eksitasi tiap tingkat orbital dan momen dipol transisinya dan akan didapatkan besar absorbansi tiap perubahan energi eksitasi. Jika di plot kedalam grafik, akan terlihat puncak absorbsi yang akan menginterpretasikan besar celah energi yang dimiliki oleh Graphene. Hal ini karena momen dipol transisi akan menggambarkan besar energi transisi orbital molekulnya, dan energi transisi tertinggi akan menggambarkan transisi dari keadaan HOMO ke LUMO yang merupakan celah energi. Puncak absorbansi akan semakin menggeser mendekati $\Delta E = 0$ saat atom karbon nya bertambah dan juga terdapat puncak-puncak kecil dari absorbansi yang menunjukkan Graphene merupakan bahan dengan sifat metalik dan konduktor yang baik.
 \section{Saran}
 	Dari penelitian yang sudah dilakukan, terdapat beberapa masukan untuk penelitian selanjutnya yaitu:
 	\begin{enumerate}

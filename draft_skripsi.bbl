@@ -1380,5 +1380,138 @@
     \verb https://www.tutorialspoint.com/pyspark/pyspark_sparkcontext.htm
     \endverb
   \endentry
+
+  \entry{Masiak2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MP}{%
+         family={Masiak},
+         familyi={M\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=WM}{%
+         family={Wierzbowska},
+         familyi={W\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+    }
+    \strng{namehash}{MPWM1}
+    \strng{fullhash}{MPWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{4378\bibrangedash 4388}
+    \field{title}{{Ferroelectric pi-stacks of molecules with the energy gaps in
+  the sunlight range}}
+    \field{volume}{52}
+    \field{journaltitle}{Journal Material Science}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Jeon2013}{article}{}
+    \name{author}{11}{}{%
+      {{hash=JC}{%
+         family={Jeon},
+         familyi={J\bibinitperiod},
+         given={Cheolho},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SHC}{%
+         family={Shin},
+         familyi={S\bibinitperiod},
+         given={Ha\bibnamedelima Chul},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Inkyung},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Minkook},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PJH}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Ji\bibnamedelima Hoon},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Nam},
+         familyi={N\bibinitperiod},
+         given={Jungho},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ODH}{%
+         family={Oh},
+         familyi={O\bibinitperiod},
+         given={Dong\bibnamedelima Hwa},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Woo},
+         familyi={W\bibinitperiod},
+         given={Sunhee},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HCC}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Chan\bibnamedelima Cuk},
+         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=PCY}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Chong\bibnamedelima Yun},
+         giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=AJR}{%
+         family={Ahn},
+         familyi={A\bibinitperiod},
+         given={Joung\bibnamedelima Real},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JC+1}
+    \strng{fullhash}{JCSHCSIKMPJHNJODHWSHCCPCYAJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    For graphene to be used in semiconductor applications, a 'wide energy gap'
+  of at least 0.5{\^{a}}.eV at the Dirac energy must be opened without the
+  introduction of atomic defects. However, such a wide energy gap has not been
+  realized in graphene, except in the cases of narrow, chemically terminated
+  graphene nanostructures with inevitable edge defects. Here, we demonstrated
+  that a wide energy gap of 0.74{\^{a}}.eV, which is larger than that of
+  germanium, could be opened in uniform monolayer graphene without the
+  introduction of atomic defects into graphene. The wide energy gap was opened
+  through the adsorption of self-assembled twisted sodium nanostrips.
+  Furthermore, the energy gap was reversibly controllable through the alternate
+  adsorption of sodium and oxygen. The opening of such a wide energy gap with
+  minimal degradation of mobility could improve the applicability of graphene
+  in semiconductor devices, which would result in a major advancement in
+  graphene technology.%
+    }
+    \verb{doi}
+    \verb 10.1038/srep02725
+    \endverb
+    \field{issn}{20452322}
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{{Opening and reversible control of a wide energy gap in
+  uniform monolayer graphene}}
+    \field{volume}{3}
+    \verb{file}
+    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Jeon et al. - 2013 - Opening and reversible control of a wide
+    \verb energy gap in uniform monolayer graphene.pdf:pdf
+    \endverb
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2013}
+  \endentry
 \enddatalist
 \endinput
