@@ -40,7 +40,7 @@
 \contentsline {chapter}{BAB V KESIMPULAN DAN SARAN}{42}{chapter*.20}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{42}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Saran}{43}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{44}{Item.55}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{44}{Item.54}%
 \contentsline {chapter}{DAFTAR LAMPIRAN}{51}{section*.23}%
 \contentsline {section}{Lampiran 1: Kode Kalkulasi Huckel dan Absorbansi}{51}{section*.24}%
 \contentsline {section}{Lampiran 2: Kode Eksekusi dengan Python}{56}{section*.25}%
