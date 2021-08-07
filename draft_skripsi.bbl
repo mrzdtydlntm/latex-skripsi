@@ -989,6 +989,26 @@
     \field{year}{2016}
   \endentry
 
+  \entry{MathIsFun}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Math Is Fun}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Eigenvector and Eigenvalue}}
+    \verb{url}
+    \verb https://www.mathsisfun.com/algebra/eigenvalue.html
+    \endverb
+    \field{urlday}{07}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
   \entry{Gallier2010}{article}{}
     \name{author}{1}{}{%
       {{hash=GJ}{%

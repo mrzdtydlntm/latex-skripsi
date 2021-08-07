@@ -1,4 +1,4 @@
-from huckel import huckel
+from huckel import huckel_2
 import numpy as np
 from pprint import pprint
 
@@ -6,7 +6,7 @@ def main():
     list_egap = []
     N = np.arange(6,101,2)
     for X in N:
-        H, eigval, eignum, Egap, dE, Ms, x, y_list = huckel(X,X)
+        H, eigval_schur, Egap = huckel_2(X)
         list_egap.append(Egap)
 
     file = open("spectra-graphene.txt", "w")
