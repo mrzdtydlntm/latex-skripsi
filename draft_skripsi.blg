@@ -25,60 +25,128 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 11533 items from 5000.
 Database file #1: draft_skripsi-blx.bib
 Database file #2: referensi.bib
-Repeated entry---line 2015 of file referensi.bib
+Repeated entry---line 1545 of file referensi.bib
  : @misc{Ben2016
  :              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2278 of file referensi.bib
+Repeated entry---line 2047 of file referensi.bib
+ : @misc{Ben2016
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2921 of file referensi.bib
+ : @article{Korkmaz2020
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3015 of file referensi.bib
+ : @misc{Ben2016
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3021 of file referensi.bib
+ : @book{Chakraborty2018
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3040 of file referensi.bib
+ : @book{Ford2003
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3055 of file referensi.bib
+ : @article{Clemons2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3120 of file referensi.bib
+ : @article{Davis2004
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3247 of file referensi.bib
+ : @article{Ribeiro
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3253 of file referensi.bib
+ : @article{Rustaman2008
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3502 of file referensi.bib
+ : @article{Imamura2018
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3731 of file referensi.bib
+ : @article{Shakhovska2019
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3796 of file referensi.bib
+ : @article{Jeon2013
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3821 of file referensi.bib
+ : @article{Ni2015
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3845 of file referensi.bib
+ : @phdthesis{Abdussalam2017
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3860 of file referensi.bib
  : @article{Maczynski1991
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2298 of file referensi.bib
+Repeated entry---line 3871 of file referensi.bib
+ : @book{Siregar2014
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3880 of file referensi.bib
  : @article{Sahu2017
  :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3920 of file referensi.bib
+ : @article{Gallier2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3984 of file referensi.bib
+ : @book{Zhen2017
+ :               ,
 I'm skipping whatever remains of this entry
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 47 entries,
             6365 wiz_defined-function locations,
-            1534 strings with 27788 characters,
-and the built_in function-call counts, 239891 in all, are:
-= -- 16082
-> -- 4927
-< -- 1053
-+ -- 5627
-- -- 2213
-* -- 16080
-:= -- 24480
+            1516 strings with 24745 characters,
+and the built_in function-call counts, 236629 in all, are:
+= -- 16003
+> -- 4660
+< -- 1038
++ -- 5384
+- -- 1880
+* -- 15795
+:= -- 24079
 add.period$ -- 0
 call.type$ -- 47
 change.case$ -- 555
-chr.to.int$ -- 116
+chr.to.int$ -- 92
 cite$ -- 92
-duplicate$ -- 25043
-empty$ -- 23093
+duplicate$ -- 24862
+empty$ -- 22795
 format.name$ -- 2579
-if$ -- 49766
+if$ -- 49349
 int.to.chr$ -- 0
 int.to.str$ -- 118
 missing$ -- 0
-newline$ -- 1413
+newline$ -- 1324
 num.names$ -- 2045
-pop$ -- 15703
+pop$ -- 15757
 preamble$ -- 1
 purify$ -- 782
 quote$ -- 0
-skip$ -- 7816
+skip$ -- 7775
 stack$ -- 0
-substring$ -- 27264
-swap$ -- 5916
-text.length$ -- 931
-text.prefix$ -- 3
+substring$ -- 26906
+swap$ -- 5759
+text.length$ -- 924
+text.prefix$ -- 6
 top$ -- 1
 type$ -- 1579
 warning$ -- 0
-while$ -- 3199
+while$ -- 3164
 width$ -- 0
-write$ -- 1367
-(There were 4 error messages)
+write$ -- 1278
+(There were 21 error messages)

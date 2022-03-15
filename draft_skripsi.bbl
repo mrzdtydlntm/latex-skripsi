@@ -101,11 +101,6 @@
     \verb{url}
     \verb http://dx.doi.org/10.1016/B978-0-12-812651-6.00001-X
     \endverb
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Zhen, Zhu - 2017 - Structure and properties of graphene.pdf:pd
-    \verb f
-    \endverb
     \field{year}{2017}
   \endentry
 
@@ -114,8 +109,8 @@
       {{hash=RB}{%
          family={Ribeiro},
          familyi={R\bibinitperiod},
-         given={B.},
-         giveni={B\bibinitperiod},
+         given={B},
+         giveni={B},
       }}%
       {{hash=KW}{%
          family={Kusuma},
@@ -131,11 +126,6 @@
     \field{pages}{1\bibrangedash 28}
     \field{title}{{Aplikasi Metode Huckel dan Slater pada Orbital Molekul Untuk
   Menentuan Energi Ikatan Molekul}}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Ribeiro, Kusuma - Unknown - Aplikasi Metode Huckel dan Slater
-    \verb pada Orbital Molekul Untuk Menentuan Energi Ikatan Molekul.pdf:pdf
-    \endverb
   \endentry
 
   \entry{Ni2015}{article}{}
@@ -143,8 +133,8 @@
       {{hash=NP}{%
          family={Ni},
          familyi={N\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
+         given={P},
+         giveni={P},
       }}%
     }
     \strng{namehash}{NP1}
@@ -157,11 +147,6 @@
     \field{title}{{Band gap of graphene nanoribbons calculated using Huckel
   molecular orbital theory}}
     \field{volume}{2}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Ni - 2015 - Band gap of graphene nanoribbons calculated using
-    \verb Huckel molecular orbital theory.pdf:pdf
-    \endverb
     \field{journaltitle}{International Journal of Engineering and Applied
   Sciences}
     \field{year}{2015}
@@ -205,37 +190,37 @@
       {{hash=CCB}{%
          family={Clemons},
          familyi={C\bibinitperiod},
-         given={C.\bibnamedelima B.},
+         given={C\bibnamedelima B},
          giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
       }}%
       {{hash=RMW}{%
          family={Roberts},
          familyi={R\bibinitperiod},
-         given={M.\bibnamedelima W.},
+         given={M\bibnamedelima W},
          giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
       {{hash=WJP}{%
          family={Wilber},
          familyi={W\bibinitperiod},
-         given={J.\bibnamedelima P.},
+         given={J\bibnamedelima P},
          giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
       {{hash=YGW}{%
          family={Young},
          familyi={Y\bibinitperiod},
-         given={G.\bibnamedelima W.},
+         given={G\bibnamedelima W},
          giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
       {{hash=BA}{%
          family={Buldum},
          familyi={B\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
+         given={A},
+         giveni={A},
       }}%
       {{hash=QDD}{%
          family={Quinn},
          familyi={Q\bibinitperiod},
-         given={D.\bibnamedelima D.},
+         given={D\bibnamedelima D},
          giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
@@ -255,7 +240,7 @@
   procedure to find the value of the flexural rigidity that minimizes the
   difference between the numerical solutions and the deflections predicted by
   atomistic simulations. This procedure predicts a flexural rigidity of 0.26nN
-  nm = 1.62 eV. Copyright {\textcopyright} 2010 M.W. Roberts et al.%
+  nm = 1.62 eV. Copyright {\textcopyright}2010 M.W. Roberts et al.%
     }
     \verb{doi}
     \verb 10.1155/2010/868492
@@ -264,12 +249,6 @@
     \field{title}{{Continuum plate theory and atomistic modeling to find the
   flexural rigidity of a graphene sheet interacting with a substrate}}
     \field{volume}{2010}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Clemons et al. - 2010 - Continuum plate theory and atomistic m
-    \verb odeling to find the flexural rigidity of a graphene sheet interacting
-    \verb  with.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Nanotechnology}
     \field{year}{2010}
   \endentry
@@ -350,11 +329,6 @@
     \field{pages}{81\bibrangedash 89}
     \field{title}{{Band gap opening in graphene: a short theoretical study}}
     \field{volume}{7}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Sahu, Rout - 2017 - Band gap opening in graphene a short theor
-    \verb etical study.pdf:pdf
-    \endverb
     \field{journaltitle}{International Nano Letters}
     \field{year}{2017}
   \endentry
@@ -448,7 +422,7 @@
       {{hash=HMSJ}{%
          family={Hashmi},
          familyi={H\bibinitperiod},
-         given={M.\bibnamedelima Saleem\bibnamedelima J.},
+         given={M\bibnamedelima Saleem\bibnamedelima J},
          giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
   J\bibinitperiod},
       }}%
@@ -484,12 +458,6 @@
     \verb{url}
     \verb http://dx.doi.org/10.1016/B978-0-12-803581-8.10319-4
     \endverb
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Chakraborty, Hashmi - 2018 - Graphene as a Material – An Ove
-    \verb rview of Its Properties and Characteristics and Development Potential
-    \verb  for.pdf:pdf
-    \endverb
     \field{year}{2018}
   \endentry
 
@@ -519,11 +487,6 @@
     \field{title}{{Graphene and graphene oxide based aerogels : Synthesis ,
   characteristics and supercapacitor applications}}
     \field{volume}{27}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Korkmaz, Af - 2020 - Graphene and graphene oxide based aerogel
-    \verb s Synthesis , characteristics and supercapacitor applications.pdf:pdf
-    \endverb
     \field{year}{2020}
   \endentry
 
@@ -574,11 +537,6 @@
     \list{location}{1}{%
       {Jatinangor}%
     }
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Siregar - 2014 - MEKANIKA KUANTUM MOLEKUL Struktur Elektronik
-    \verb Atom dan Molekul.pdf:pdf
-    \endverb
     \field{year}{2014}
   \endentry
 
@@ -624,10 +582,6 @@
     \field{labeltitlesource}{title}
     \field{pages}{1\bibrangedash 21}
     \field{title}{{KEADAAN-KEADAAN TRANSISI MOLEKUL}}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Rustaman - 2008 - KEADAAN-KEADAAN TRANSISI MOLEKUL.pdf:pdf
-    \endverb
     \field{journaltitle}{Karya Tulis Ilmiah Kimia Unpad}
     \field{year}{2008}
   \endentry
@@ -653,11 +607,6 @@
     \field{title}{{A SIMPLE DERIVATION OF HUCKEL'S MOLECULAR ORBITALS IN THE
   FRAMEWORK OF QUANTUM LOGIC}}
     \field{volume}{30}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/M{\c{a}}czy{\'{n}}ski - 1991 - A SIMPLE DERIVATION OF HUCKEL'S
-    \verb  MOLECULAR ORBITALS IN THE FRAMEWORK OF QUANTUM LOGIC.pdf:pdf
-    \endverb
     \field{journaltitle}{Reports on Mathematical Physics}
     \field{year}{1991}
   \endentry
@@ -720,12 +669,6 @@
     \verb https://doi.org/10.1016/j.cplett.2018.07.023
     \endverb
     \field{volume}{707}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Imamura et al. - 2018 - Extrapolation of polymer gap by combin
-    \verb ing cluster and periodic boundary condition calculations with H{\"{u}
-    \verb }ckel theo.pdf:pdf
-    \endverb
     \field{journaltitle}{Chemical Physics Letters}
     \field{year}{2018}
   \endentry
@@ -902,12 +845,25 @@
     \list{institution}{1}{%
       {Technischen Universit{\"{a}}t Dresden}%
     }
-    \verb{file}
-    \verb :home/azrimadit/Documents/Otw_Lulus/Jurnal/Absorbance/49034214.pdf:pd
-    \verb f
-    \endverb
     \field{type}{phdthesis}
     \field{year}{2017}
+  \endentry
+
+  \entry{MathIsFun}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Math Is Fun}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Eigenvector and Eigenvalue}}
+    \verb{url}
+    \verb https://www.mathsisfun.com/algebra/eigenvalue.html
+    \endverb
   \endentry
 
   \entry{Davis2004}{article}{}
@@ -925,11 +881,6 @@
     \field{labeltitlesource}{title}
     \field{title}{{Block matrix methods: Taking advantage of high-performance
   computers}}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Davis - 2004 - Block matrix methods Taking advantage of high-p
-    \verb erformance computers.pdf:pdf
-    \endverb
     \field{year}{2004}
   \endentry
 
@@ -962,13 +913,6 @@
     \list{location}{1}{%
       {USA}%
     }
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Ford - 2003 - Numerical Linear Algebra with Applications Edito
-    \verb rial.pdf:pdf;:home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley
-    \verb  Desktop/Downloaded/Ford - 2003 - Numerical Linear Algebra with Appli
-    \verb cations Editorial(2).pdf:pdf
-    \endverb
     \field{year}{2003}
   \endentry
 
@@ -987,26 +931,6 @@
     \field{labeltitlesource}{title}
     \field{title}{{How Target Performance Tunes Machine Learning Applications}}
     \field{year}{2016}
-  \endentry
-
-  \entry{MathIsFun}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=M}{%
-         family={{Math Is Fun}},
-         familyi={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{M1}
-    \strng{fullhash}{M1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{{Eigenvector and Eigenvalue}}
-    \verb{url}
-    \verb https://www.mathsisfun.com/algebra/eigenvalue.html
-    \endverb
-    \field{urlday}{07}
-    \field{urlmonth}{08}
-    \field{urlyear}{2021}
   \endentry
 
   \entry{Gallier2010}{article}{}
@@ -1032,9 +956,6 @@
   and Definite ) Matrices}}
     \verb{url}
     \verb http://www.cis.upenn.edu/$\sim$jean/schur-comp.pdf
-    \endverb
-    \verb{file}
-    \verb :home/azrimadit/Documents/Otw_Lulus/Jurnal/Matrix/schur-comp.pdf:pdf
     \endverb
     \field{journaltitle}{Complement}
     \field{year}{2010}
@@ -1143,7 +1064,7 @@
     \list{publisher}{1}{%
       {Elsevier B.V.}%
     }
-    \keyw{Big data: Web application,Modeling: Processing, analytics}
+    \keyw{analytics,Big data: Web application,Modeling: Processing}
     \strng{namehash}{SN+1}
     \strng{fullhash}{SNBNZYBE1}
     \field{labelnamesource}{author}
@@ -1171,11 +1092,6 @@
     \verb https://doi.org/10.1016/j.procs.2019.11.047
     \endverb
     \field{volume}{160}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Shakhovska et al. - 2019 - Big data processing technologies in
-    \verb  distributed information systems.pdf:pdf
-    \endverb
     \field{journaltitle}{Procedia Computer Science}
     \field{year}{2019}
   \endentry
@@ -1525,11 +1441,6 @@
     \field{title}{{Opening and reversible control of a wide energy gap in
   uniform monolayer graphene}}
     \field{volume}{3}
-    \verb{file}
-    \verb :home/azrimadit/.local/share/data/Mendeley Ltd./Mendeley Desktop/Down
-    \verb loaded/Jeon et al. - 2013 - Opening and reversible control of a wide
-    \verb energy gap in uniform monolayer graphene.pdf:pdf
-    \endverb
     \field{journaltitle}{Scientific Reports}
     \field{year}{2013}
   \endentry

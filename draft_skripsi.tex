@@ -407,7 +407,7 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 	Singkatnya, persamaan \eqref{alphabeta} dapat menjadi sebuah persamaan matriks yang ditulis dengan,
 	\begin{equation}
 	\begin{bmatrix}
-	{H_{11}-ES_{11}} & {H_{12}-ES_{12}} & ... &{H_{1j}-ES_{1j}}\\
+	{H_{11}-ES_{11}} \& {H_{12}-ES_{12}} & ... &{H_{1j}-ES_{1j}}\\
 	{H_{21}-ES_{21}} & {H_{22}-ES_{22}} & ... &{H_{2j}-ES_{2j}}\\
 	... & ... & ... & ... \\
 	{H_{i1}-ES_{i1}} & {H_{i2}-ES_{i2}} & ... &{H_{ij}-ES_{ij}}
@@ -468,7 +468,11 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 	
 	\section{\textit{Block Matrix}}
 
-	\textit{Block Matrix} merupakan salah satu operasi yang paling penting untuk meningkatkan kinerja komputasi. Dengan menggunakan Block Matrix maka operasi dapat diparalelisasi \cite{Davis2004}. Block Matrix adalah operasi matriks dimana suatu matriks berdimensi besar akan dibagi menjadi beberapa sub matriks kecil \cite{Ford2003}.
+	Untuk mencari nilai energi yang dimiliki oleh Graphene, maka dapat digunakan persamaan eigen sesuai dengan Persamaan \ref{schrodinger}. Persamaan eigen menghasilkan vektor tak-nol yang dipetakan oleh transformaasi linier dari \textit{vector space} ke vektor hasil dari perkalian skalar dengan vektor basisnya atau sering disebut sebagai vektor eigen, dan suatu nilai skalar yang terkait dengan transformasi linier yang diberikan dari \textit{vector space} nya atau sering disebut sebagai nilai eigen \cite{MathIsFun}. Persamaan eigen secara matematis ditulis dengan,
+	\begin{equation}
+	\hat{A} \vec{x} = \lambda \vec{x}
+	\end{equation}
+	\textit{Block Matrix} merupakan salah satu cara untuk mempercepat kalkulasi persamaan eigen. Dengan menggunakan Block Matrix maka operasi dapat diparalelisasi \cite{Davis2004}. Block Matrix adalah operasi matriks dimana suatu matriks berdimensi besar akan dibagi menjadi beberapa sub matriks kecil \cite{Ford2003}.
 	
 	\begin{center}
 		\includegraphics[width=9.1cm]{gambar/blockmat.png}
@@ -518,7 +522,8 @@ Dengan segala kerendahan hati, penulis menyadari bahwa skripsi ini masih memilik
 	a_{43} & a_{44}
 	\end{bmatrix}
 	\end{equation}
-	Dengan metode Block Matrix akan digunakan untuk mengkalkulasi persamaan eigen. Persamaan eigen akan menghasilkan dua buah output, yaitu nilai eigen dan vektor eigen. Vektor eigen adalah vektor karakteristik tidak nol yang menggambarkan sistem linier dari sebuah persamaan matriks. Nilai eigen adalah nilai skalar untuk mentransformasi vektor eigen atau sering disebut sebagai karakteristik skalar \cite{MathIsFun}. Salah satu metode Block Matrix adalah dengan menggunakan \textit{Schur Decomposition}. Dekomposisi Schur akan membagi sebuah matriks menjadi 4 buah sub matriks dan menghitung determinan tiap sub matriksnya \cite{Gallier2010}. Jika menggunakan persamaan \eqref{submat}, maka dekomposisi Schur nya menjadi
+	%Dengan metode Block Matrix akan digunakan untuk mengkalkulasi persamaan eigen. Persamaan eigen akan menghasilkan dua buah output, yaitu nilai eigen dan vektor eigen. Vektor eigen adalah vektor karakteristik tidak nol yang menggambarkan sistem linier dari sebuah persamaan matriks. Nilai eigen adalah nilai skalar untuk mentransformasi vektor eigen atau sering disebut sebagai karakteristik skalar \cite{MathIsFun}. 
+	Salah satu metode Block Matrix adalah dengan menggunakan \textit{Schur Decomposition}. Dekomposisi Schur akan membagi sebuah matriks menjadi 4 buah sub matriks dan menghitung determinan tiap sub matriksnya \cite{Gallier2010}. Jika menggunakan persamaan \eqref{submat}, maka dekomposisi Schur nya menjadi
 	\begin{equation}
 	\label{schur}
 	det\begin{bmatrix}
@@ -888,31 +893,31 @@ Dari hasil ini, terlihat dengan menggunakan dekomposisi Schur dapat mempercepat 
 
 Selain diaplikasikan dekomposisi Schur, telah dilakukan pengaplikasian teknik komputasi dengan Python (menggunakan \textit{Serial Processing}, \textit{Multiprocessing}  dan \textit{Threading}) dan PySpark. Dengan menghitung kecepatan komputasi tiap banyak atom, didapatkan grafik seperti berikut, 
 \begin{center}
-	\includegraphics[width=12cm]{gambar/time-gcloud.png}
+	\includegraphics[width=12cm]{gambar/time-gcloud-onegraph.png}
 	\captionof{figure}{Grafik Waktu Komputasi terhadap Banyak Atom untuk Server Google Cloud}
 	\label{time_gcloud}
 \end{center}
 \begin{center}
-	\includegraphics[width=12cm]{gambar/time-kst.png}
+	\includegraphics[width=12cm]{gambar/time-kst-onegraph.png}
 	\captionof{figure}{Grafik Waktu Komputasi terhadap Banyak Atom untuk Server KST}
 	\label{time_kst}
 \end{center}
 dengan persamaan ekstrapolasinya untuk Server Google Cloud,
 \begin{equation}
 \begin{cases}
-y = 1.06283 x^{2} + 0.0566065 x - 6.13494 \ (Python)\\
-y = 1.06611 x^{2} + 5.36721 x - 145.615 \ (Multiprocessing)\\
-y = 1.06185 x^{2} - 0.135739 x - 0.215598 \ (PySpark) \\
-y = 1.06287 x^{2} + 0.067744 x - 6.38048 \ (Threading)
+y = x^{2} + 0.0566065 x - 6.13494 \ (Python)\\
+y = x^{2} + 5.36721 x - 145.615 \ (Multiprocessing)\\
+y = x^{2} - 0.135739 x - 0.215598 \ (PySpark) \\
+y = x^{2} + 0.067744 x - 6.38048 \ (Threading)
 \end{cases}
 \end{equation}
 dan untuk Server KST,
 \begin{equation}
 \begin{cases}
-y = y = 1.06864 x^{2} + 0.616388 x - 20.1333 \ (Python)\\
-y = 1.06478 x^{2} + 5.56834 x - 133.594 \ (Multiprocessing)\\
-y = 1.06313 x^{2} - 0.235929 x + 2.29776 \ (PySpark) \\
-y = 1.06878 x^{2} + 0.680441 x - 22.4496 \ (Threading)
+y = x^{2} + 0.616388 x - 20.1333 \ (Python)\\
+y = x^{2} + 5.56834 x - 133.594 \ (Multiprocessing)\\
+y = x^{2} - 0.235929 x + 2.29776 \ (PySpark) \\
+y = x^{2} + 0.680441 x - 22.4496 \ (Threading)
 \end{cases}
 \end{equation}
 
@@ -1028,7 +1033,7 @@ Apabila jumlah atom karbon diperbanyak, maka puncak absorbansi yang terjadi akan
 \end{center}
 Puncak absorbsinya terjadi pada panjang gelombang $3,3099 \mu m$ untuk N = 21 atom, $8,6037 \mu m$ untuk N = 50 atom, dan $33,4178 \mu m$ untuk N = 400 atom.
 
-Selain itu, terdapat puncak-puncak kecil yang menunjukkan masih ada energi yang terserap oleh elektron. Ini menunjukkan bahwa Graphene bersifat metalik yaitu sebagai konduktor yang baik akibat perpindahan atau eksitasi elektron yang terjadi sangatlah mudah.
+Terdapat puncak-puncak kecil absorpsi setelah puncak terbesarnya. Seiring bertambahnya atom karbon didalam graphene, puncak-puncak kecil tersebut semakin menghilang. Puncak-puncak kecil dari absorpsi ini disebabkan oleh kesalahan komputasi yang diakibatkan ukuran graphene yang dikalkulasi sangat kecil.
 
 
 \chapter*{BAB V \\ KESIMPULAN DAN SARAN}
@@ -1038,7 +1043,7 @@ Selain itu, terdapat puncak-puncak kecil yang menunjukkan masih ada energi yang 
 \setcounter{figure}{0}
 \thispagestyle{myplain}
 \section{Kesimpulan}
-	Telah dirancang algoritma untuk membangun matriks Hamiltonian dan kalkulasi spektrum absorbsi menggunakan bahasa pemrograman Python. Data-data yang telah didapatkan meliputi: celah energi (\textit{gap energy}), energi eksitasi tiap tingkat orbital molekul ($\Delta$E), momen dipol transisi, dan absorbsi. Celah energi yang didapatkan akan mengecil jika semakin banyak atom karbon yang dimiliki oleh Graphene. Ini disebabkan karena saat atom karbon bertambah, jarak energi antar orbital molekulnya akan semakin kecil atau \textit{density of states} nya bertambah padat dan menyebabkan elektron lebih mudah untuk bereksitasi. Akurasi yang didapatkan dari hasil perhitungan celah energi yaitu: celah energi Benzene pada literatur sebesar 3.1 eV \cite{Masiak2017} dan hasil komputasi sebesar 3.1599 eV dengan kesalahan relatif sebesar 18,95\%. Untuk akurasi Graphene 3.5 nm, didapatkan hasil literatur sebesar 0.4 eV \cite{Jeon2013} dan hasil komputasi sebesar 0.5219 eV dengan kesalahan relatif sebesar 32,275\%. Hal ini diakibatkan Teori Hückel merupakan persamaan semi-empirik dan hanya melibatkan interaksi tetangga terdekatnya saja. Setelah menghitung celah energi, lalu dicari energi eksitasi tiap tingkat orbital dan momen dipol transisinya dan didapatkan besar absorbansi tiap perubahan energi eksitasi. Jika di plot kedalam grafik, akan terlihat puncak absorbsi yang menginterpretasikan besar celah energi yang dimiliki oleh Graphene. Hal ini karena momen dipol transisi akan menggambarkan besar energi transisi orbital molekulnya, dan energi transisi tertinggi akan menggambarkan transisi dari keadaan HOMO ke LUMO yang merupakan celah energi. Puncak absorbansi akan semakin menggeser mendekati $\Delta E = 0$ saat atom karbon nya bertambah dan juga terdapat puncak-puncak kecil dari absorbansi yang menunjukkan Graphene merupakan bahan dengan sifat metalik dan konduktor yang baik. Dalam penghitungan besar energi orbital molekul, dilakukan dengan menggunakan teknik \textit{Block Matrix} dan variasi komputasi Python, \textit{PySpark}, \textit{Multiprocessing} dan \textit{Threading}. Dari teknik tersebut, didapatkan bahwa dengan menggunakan teknik \textit{Block Matrix} dapat mempercepat kecepatan komputasi, begitupun dari keempat variasi komputasi, PySpark memiliki keunggulan dalam waktu komputasi yang dibutuhkan dengan rata-rata $569,08$ detik untuk Server Google Cloud dan $844,72$ detik untuk Server KST.
+	Telah dirancang algoritma untuk membangun matriks Hamiltonian dan kalkulasi spektrum absorbsi menggunakan bahasa pemrograman Python. Data-data yang telah didapatkan meliputi: celah energi (\textit{gap energy}), energi eksitasi tiap tingkat orbital molekul ($\Delta$E), momen dipol transisi, dan absorbsi. Celah energi yang didapatkan akan mengecil jika semakin banyak atom karbon yang dimiliki oleh Graphene. Ini disebabkan karena saat atom karbon bertambah, jarak energi antar orbital molekulnya akan semakin kecil atau \textit{density of states} nya bertambah padat dan menyebabkan elektron lebih mudah untuk bereksitasi. Akurasi yang didapatkan dari hasil perhitungan celah energi yaitu: celah energi Benzene pada literatur sebesar 3.1 eV \cite{Masiak2017} dan hasil komputasi sebesar 3.1599 eV dengan kesalahan relatif sebesar 18,95\%. Untuk akurasi Graphene 3.5 nm, didapatkan hasil literatur sebesar 0.4 eV \cite{Jeon2013} dan hasil komputasi sebesar 0.5219 eV dengan kesalahan relatif sebesar 32,275\%. Hal ini diakibatkan Teori Hückel merupakan persamaan semi-empirik dan hanya melibatkan interaksi tetangga terdekatnya saja. Setelah menghitung celah energi, lalu dicari energi eksitasi tiap tingkat orbital dan momen dipol transisinya dan didapatkan besar absorbansi tiap perubahan energi eksitasi. Jika di plot kedalam grafik, akan terlihat puncak absorbsi yang menginterpretasikan besar celah energi yang dimiliki oleh Graphene. Hal ini karena momen dipol transisi akan menggambarkan besar energi transisi orbital molekulnya, dan energi transisi tertinggi akan menggambarkan transisi dari keadaan HOMO ke LUMO yang merupakan celah energi. Puncak absorbansi akan semakin menggeser mendekati $\Delta E = 0$ saat atom karbon nya bertambah. Terdapat puncak absorpsi kecil setelah puncak tertingginya yang disebabkan karena kesalahan kalkulasi akibat ukuran graphene yang diteliti masih kecil. Puncak kecil tersebut akan menghilang seiring bertambahnya atom karbon pada graphene. Dalam penghitungan besar energi orbital molekul, dilakukan dengan menggunakan teknik \textit{Block Matrix} dan variasi komputasi Python, \textit{PySpark}, \textit{Multiprocessing} dan \textit{Threading}. Dari teknik tersebut, didapatkan bahwa dengan menggunakan teknik \textit{Block Matrix} dapat mempercepat kecepatan komputasi, begitupun dari keempat variasi komputasi, PySpark memiliki keunggulan dalam waktu komputasi yang dibutuhkan dengan rata-rata $569,08$ detik untuk Server Google Cloud dan $844,72$ detik untuk Server KST.
 \section{Saran}
 	Dari penelitian yang sudah dilakukan, terdapat beberapa masukan untuk penelitian selanjutnya yaitu:
 	\begin{enumerate}
